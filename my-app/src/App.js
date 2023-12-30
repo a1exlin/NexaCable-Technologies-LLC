@@ -18,9 +18,9 @@ function App() {
     
 <Nav/>
 <Home/>
-<About/>
+<About/> 
 <Services/>
-<Testimonials/>
+<Testimonials/> 
 <Contact/>
 
   
