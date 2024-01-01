@@ -5,10 +5,10 @@ function services() {
         <div>
 
             <div className="service-box"> <h1 className="header-service">OUR SERVICES</h1></div>
-            <div className="business"> <h2> 10+</h2>  <p> Years In Business</p></div>
-            <div className="client"> <h2> 1.5k  </h2><p> Happy Clients</p></div>
-            <div className="project"> <h2> 2.5k</h2>  <p>  Projects Completed</p></div>
-            <div className="staff"> <h2>150+  </h2><p> Trained Staff</p></div>
+            <div className="business"> <h2 className="ten"> 10+</h2>  <p className="year"> Years In Business</p></div>
+            <div className="client"> <h2 className="ten2"> 1.5k  </h2><p className="happy"> Happy Clients</p></div>
+            <div className="project"> <h2 className="ten3"> 2.5k</h2>  <p className="project-txt">  Projects Completed</p></div>
+            <div className="staff"> <h2 className="ten4">150+  </h2><p className="trained"> Trained Staff</p></div>
             <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-installation.png" className="service-image1"></img>
             <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-structuring.png" className="service-image2"></img>
             <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/Network-Infrastructure.png" className="service-image3"></img>

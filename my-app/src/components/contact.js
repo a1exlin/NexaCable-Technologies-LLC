@@ -42,21 +42,28 @@ function contact() {
             </div>
 
             <div className='copyright'>
-            {/* <img src={logo} alt-="black-NexaCable Logo" className='blackLogo'/> */}
-            <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/footer-logo.png" className='black-logo'></img>
-                <p>We provide commercial network and security systems installation for large and small businesses or new residential constructions.</p>
+                {/* <img src={logo} alt-="black-NexaCable Logo" className='blackLogo'/> */}
+                <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/footer-logo.png" className='black-logo'></img>
+                <p className='commercial-txt'>We provide commercial network and security systems</p>
+                <p className='commercial-txt2'> installation for large and small businesses or new residential</p>
+                <p className='commercial-txt3'>constructions.</p>
                 <h4 className='visit-header'> VISIT US</h4>
-                <p>1234 Apple Street, NY
-                    (706) 477-5170
-                    contact@nexacable.net</p>
+                <p className='address-txt'>1234 Apple Street, NY
+                </p>
+                <p className='address-txt2'>(706) 477-5170</p>
+                <p className='address-txt3'>   contact@nexacable.net</p>
                 <h4 className='hour-header'>OPENING HOURS
                 </h4>
-                <p>Monday - Friday:
-                    09:00AM - 05:00PM
-                    Saturday - Sunday:
-                    Closed</p>
+                <p className='hour-txt'>Monday - Friday:
+                </p>
+                <p className='hour-txt2'> 09:00AM - 05:00PM</p>
+                <p className='hour-txt3'>    Saturday - Sunday:</p>
+                <p className='hour-txt4'>Closed</p>
             </div>
-
+<div className='copyright1'>
+<p className='copyright2'>Copyright © 2023 NexaCable Technologies</p>
+<p className='sitemap'>Sitemap</p>
+</div>
         </div>
     )
 }
