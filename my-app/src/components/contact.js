@@ -48,7 +48,7 @@ function contact() {
                 <p className='commercial-txt2'> installation for large and small businesses or new residential</p>
                 <p className='commercial-txt3'>constructions.</p>
                 <h4 className='visit-header'> VISIT US</h4>
-                <p className='address-txt'>1234 Apple Street, NY
+                <p className='address-txt'>
                 </p>
                 <p className='address-txt2'>(706) 477-5170</p>
                 <p className='address-txt3'>   contact@nexacable.net</p>

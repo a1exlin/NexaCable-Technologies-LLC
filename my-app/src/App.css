@@ -1,15 +1,25 @@
 .navbarLogo {
   width: 150px;
+  left: 200px;
   
 }
+body{
+  border-width: 1in;
+}
 .navbar{
-  position: fixed;
+  /* position: fixed;
   overflow: hidden;
   background-color: white;
   width: 500px;
   height: 50px;
-  left: 1000px;
+  left: 1000px; */
+  position: relative; 
   
+
+}
+.navtabs{
+  position: relative;
+  left: 1000px;
 
 }
 
@@ -724,7 +734,7 @@
 
 .contact-subheader {
   position: relative;
-  left: 412px;
+  left: 350px;
   bottom: -70px;
   font-weight: normal;
 }
@@ -850,7 +860,7 @@
   color: #00ffff;
   position: relative;
   left: 1100px;
-  top: -80px;
+  top: -100px;
   font-weight: 400px;
 }
 
@@ -908,7 +918,7 @@
 
 .hour-txt {
   position: relative;
-  top: -200px;
+  top: -210px;
   left: 1100px;
   font-weight: lighter;
 }
@@ -916,13 +926,13 @@
 .hour-txt2 {
   position: relative;
   left: 1100px;
-  top: -210px;
+  top: -220px;
   font-weight: lighter;
 }
 
 .hour-txt3 {
   position: relative;
-  top: -220px;
+  top: -230px;
   left: 1100px;
   font-weight: lighter;
 
@@ -930,7 +940,7 @@
 
 .hour-txt4 {
   position: relative;
-  top: -230px;
+  top: -240px;
   left: 1100px;
   font-weight: lighter;
 }
@@ -950,12 +960,13 @@
   position: relative;
   left: 100px;
   font-style: italic;
+  top: -120px;
 }
 
 .sitemap {
   position: relative;
   left: 1300px;
-  top: -20px;
+  top: -150px;
   font-style: italic;
 }
 
