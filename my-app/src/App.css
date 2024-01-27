@@ -3,6 +3,17 @@
   left: 200px;
   
 }
+
+.home-img{
+  position: relative;
+  width: 1500px;
+  height: 700px;
+}
+
+.home2{
+  position: relative;
+  top: -600px;
+}
 body{
   border-width: 1in;
 }
@@ -27,38 +38,39 @@ body{
   position: relative; left: 200px;
   top: -30px;
 }
-.home {
-  color: white;
-  margin-bottom: 200px;
-  margin-top: 50px;
-  padding-top: 30px;
-  background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSGcQGxfPMN-9b5DQcgCdZDbic02mTeC5J3kkUqdgq5AAR4ckV7);
 
-}
 
 .header1 {
   position: relative;
   left: 100px;
+  color: white;
+  font-size: 50px;
 }
 
 .header2 {
   position: relative;
   left: 100px;
+  color: white;
+  font-size: 50px;
+  top: -40px;
 }
 
 .provide-txt {
 
   position: relative;
   left: 100px;
-  font-weight: bold;
-  font-size: medium;
+  font-weight: bolder;
+  color: white;
+  top: -60px;
 }
 
 .provide-txt2 {
   position: relative;
   left: 100px;
   font-size: medium;
-  font-weight: bold;
+  font-weight: bolder;
+  color: white;
+  top: -70px;
 
 }
 
@@ -69,8 +81,8 @@ body{
   height: 200px;
   position: relative;
   left: 100px;
-  top: 100px;
-  background-color: white;
+  top: -350px;
+  background-color: wheat;
   border-radius: 10px;
   color: blue
 }
@@ -81,6 +93,7 @@ body{
   width: 1430px;
   height: 800px;
   inline-size: auto;
+  top:-530px;
 
 
 }
@@ -88,7 +101,7 @@ body{
 .service-image1 {
   position: relative;
   left: 100px;
-  top: -1250px;
+  top: -1800px;
   width: 400px;
   height: 250px;
   inline-size: auto;
@@ -98,7 +111,7 @@ body{
 .service-image2 {
   position: relative;
   left: 120px;
-  top: -1250px;
+  top: -1800px;
   width: 400px;
   height: 250px;
   inline-size: auto;
@@ -108,7 +121,7 @@ body{
 .service-image3 {
   position: relative;
   left: 140px;
-  top: -1250px;
+  top: -1800px;
   width: 400px;
   height: 250px;
   inline-size: auto;
@@ -136,6 +149,7 @@ body{
   border-radius: 5px;
   letter-spacing: 1px;
   font-size: small;
+  top: -500px;
 
 
 }
@@ -157,6 +171,7 @@ body{
   left: -250px;
   bottom: -200px;
   width: 350px;
+  top:-100px;
 }
 
 .quicktxt {
@@ -177,6 +192,7 @@ body{
   position: relative;
   left: 50px;
   bottom: -30px;
+  
 
 }
 
@@ -185,7 +201,7 @@ body{
   left: 460px;
   width: 250px;
   height: 40px;
-  top: -45px;
+  top: -500px;
 
 }
 
@@ -194,26 +210,25 @@ body{
   left: 470px;
   width: 250px;
   height: 40px;
-  top: -45px;
+  top: -500px;
 }
 
 
-.about {
-  margin-bottom: 200px;
-}
 
 .aboutlogo {
   position: relative; right: -100px;
   width: 620px;
   height: 450px;
+  top: -300px;
   
  
 }
 
 .aboutheader {
-  margin-top: -430px;
-  margin-left: 600px;
-  
+ 
+  position: relative;
+  left: 600px;
+  top: -740px;
 }
 
 .about-text {
@@ -251,7 +266,7 @@ body{
 .business {
   background-color: #0076FF;
   position: relative;
-  bottom: 925px;
+  top: -1460px;
   left: 100px;
   width: 300px;
   height: 150px;
@@ -281,7 +296,7 @@ body{
 .client {
   position: relative;
   left: 400px;
-  bottom: 1095px;
+  top:-1630px;
   width: 300px;
   height: 150px;
   background-color: #F3F5F5;
@@ -310,7 +325,7 @@ body{
 
 .project {
   position: relative;
-  bottom: 1265px;
+  top: -1800px;
   left: 700px;
   background-color: black;
   width: 300px;
@@ -341,7 +356,7 @@ body{
 .staff {
   position: relative;
   left: 1000px;
-  bottom: 1435px;
+  top: -1970px;
   background-color: #0076FF;
   width: 300px;
   height: 150px;
@@ -370,7 +385,7 @@ body{
 .cable {
   color: #ffffff;
   position: relative;
-  bottom: 1710px;
+  top:-2250px;
   left: 100px;
   word-wrap: break-word;
   inline-size: 400px;
@@ -384,7 +399,7 @@ body{
 .cable-header {
   color: #00ffff;
   position: relative;
-  bottom: 1700px;
+  top: -2240px;
   left: 100px;
   font-weight: bolder;
 }
@@ -392,7 +407,7 @@ body{
 .structure-header {
   color: #00ffff;
   position: relative;
-  bottom: 1480px;
+  top: -2020px;
   left: 510px;
   font-weight: bolder;
 
@@ -403,7 +418,7 @@ body{
   font-size: medium;
   inline-size: 400px;
   position: relative;
-  bottom: 1490px;
+  top: -2030px;
   left: 510px;
   color: white;
 }
@@ -411,14 +426,15 @@ body{
 .network-header {
   color: #00ffff;
   position: relative;
-  bottom: 1260px;
+  top: -1800px;
   left: 920px;
+  
 
 }
 
 .team {
   position: relative;
-  bottom: 1270px;
+  top: -1810px;
   left: 920px;
   color: #ffffff;
   font-size: medium;
@@ -428,7 +444,7 @@ body{
 
 .testimonial {
   position: relative;
-  bottom: 1610px;
+  top: -2150px;
   height: 170px;
   background-color: #F3F5F5;
 }
@@ -498,16 +514,18 @@ body{
 }
 
 .quote {
+  position: relative;
+  left: -570px;
+  top:-730px;
   background-color: #4175FC;
-  border: none;
   color: white;
   padding: 10px 10px;
   text-align: center;
-  display: inline-block;
   font-size: 16px;
-  margin-top: 50px;
-  margin-left: 100px;
   border-radius: 5px;
+  width: 200px;
+  
+
 
 }
 
@@ -718,7 +736,7 @@ body{
 
 .contact {
   position: relative;
-  bottom: 800px;
+  top: -1350px;
   background-color: #F3F5F5;
   font-weight: 700;
   width: 1450px;
