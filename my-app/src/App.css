@@ -221,7 +221,7 @@ body{
   word-wrap: break-word;
   position: relative;
   line-height: 25px;
-  inline-size: auto;
+  inline-size: 400px;
   position: relative; left: 200px;
   top: -30px;
 
