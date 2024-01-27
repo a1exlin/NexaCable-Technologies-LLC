@@ -1,4 +1,3 @@
-import logo from './img/logo.jpeg';
 import './App.css';
 import Nav from './components/navbar'
 import About from './components/about'
@@ -11,7 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div>
-  <img src={logo} alt-="NexaCable Logo" className='navbarLogo'/>
+
 
 
   <Router>
