@@ -9,11 +9,11 @@ function navbar() {
             
          <img src={logo} alt-="NexaCable Logo" className='navbarLogo'/> 
          <div className='navtabs'>
-            <a> Home</a>
-            <a> About</a>
-            <a> Services </a>
-            <a> Testimonials</a>
-            <a> Contact</a>
+            <a className='nav1'> Home</a>
+            <a className='nav2'> About</a>
+            <a className='nav3'> Services </a>
+            <a className='nav4'> Testimonials</a>
+            <a className='nav5'> Contact</a>
          </div>
  
         </div>
