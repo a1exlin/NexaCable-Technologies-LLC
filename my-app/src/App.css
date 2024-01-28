@@ -4,6 +4,32 @@
 
 }
 
+.nav1{
+position: relative;
+top: -50px;
+}
+.nav2{
+  position: relative; 
+  top: -50px;
+  left: 20px;
+}
+.nav3{
+
+    position: relative; 
+  top: -50px;
+  left: 40px;
+}
+.nav4{
+  position: relative; 
+  top: -50px;
+  left: 60px;
+}
+.nav5{
+  position: relative; 
+  top: -50px;
+  left: 80px;
+}
+
 body {
   overflow-x: hidden;
   margin: 0;
@@ -16,13 +42,15 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 0;
+  height: 0px;
 }
 
 .home-img {
   position: relative;
   width: 1500px;
   height: 700px;
+ opacity: 0.9;
+  
 }
 
 .home2 {
@@ -755,7 +783,7 @@ body {
   background-color: #F3F5F5;
   font-weight: 700;
   width: 1450px;
-  height: 900px;
+  height: 980px;
 
 }
 
@@ -877,7 +905,7 @@ body {
   background-color: black;
   color: white;
   position: relative;
-  bottom: -120px;
+  bottom: -230px;
   height: 250px;
 }
 
@@ -986,7 +1014,7 @@ body {
 
 .copyright1 {
   position: relative;
-  bottom: -280px;
+  bottom: -300px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -997,7 +1025,7 @@ body {
   position: relative;
   left: 100px;
   font-style: italic;
-  top: -120px;
+  top: -50px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -1006,7 +1034,7 @@ body {
 .sitemap {
   position: relative;
   left: 1300px;
-  top: -150px;
+  top: -60px;
   font-style: italic;
   box-sizing: border-box;
   margin: 0;
