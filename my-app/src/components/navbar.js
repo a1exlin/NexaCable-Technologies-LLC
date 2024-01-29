@@ -8,14 +8,11 @@ function navbar() {
         <div className='navbar'>
             
          <img src={logo} alt-="NexaCable Logo" className='navbarLogo'/> 
-         <div className='navtabs'>
-            <a className='nav1'> Home</a>
-            <a className='nav2'> About</a>
-            <a className='nav3'> Services </a>
-            <a className='nav4'> Testimonials</a>
-            <a className='nav5'> Contact</a>
-         </div>
- 
+            <div><a className='navItem nav1' href='#home'>Home</a></div>
+            <div><a className='navItem nav2' href='#about'>About</a></div>
+            <div><a className='navItem nav3' href='#services'>Services </a></div>
+            <div><a className='navItem nav4' href='#reviews'>Reviews</a></div>
+            <div><a className='navItem nav5' href='#contact'>Contact</a></div>
         </div>
     );
 }
