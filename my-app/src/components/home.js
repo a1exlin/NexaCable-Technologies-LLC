@@ -1,8 +1,16 @@
 import React from "react"
 import { GoArrowRight } from "react-icons/go";
 import logo from '../img/home-img.jpg';
+
+// const button = document.querySelector("#button");
+
+// button.addEventListener("click", function() {
+//   // Your code here
+// });
+
 function home() {
     return (
+
         <div className="home" >
 
     <img src={logo} alt-="home-image" className='home-img'/>
@@ -41,9 +49,10 @@ function home() {
 
 
 
-
     )
 }
+
+
 
 export default home;
 
