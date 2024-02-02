@@ -1,36 +1,66 @@
+.phone-number{
+  position: relative;
+  top: -85px;
+  right: 60%;
+  color: white;
+}
+
+/* Default styling */
 .navbarLogo {
-  width: 150px;
-  left: 200px;
-
+  width: 7.0rem;
 }
 
-.nav1{
-position: relative;
-top: -50px;
-}
-.nav2{
-  position: relative; 
+.nav1, .nav2, .nav3, .nav4, .nav5 {
+  position: relative;
   top: -50px;
+  color: white;
+}
+
+.nav2 {
   left: 20px;
 }
-.nav3{
 
-    position: relative; 
-  top: -50px;
+.nav3 {
   left: 40px;
 }
-.nav4{
-  position: relative; 
-  top: -50px;
+
+.nav4 {
   left: 60px;
 }
-.nav5{
-  position: relative; 
-  top: -50px;
+
+.nav5 {
   left: 80px;
 }
 
-body {
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav1, .nav2, .nav3, .nav4, .nav5 {
+    position: static;
+    top: 0;
+    left: 0;
+    margin: 10px 0;
+  }
+
+  .nav2 {
+    left: 0;
+  }
+
+  .nav3 {
+    left: 0;
+  }
+
+  .nav4 {
+    left: 0;
+  }
+
+  .nav5 {
+    left: 0;
+  }
+}
+
+/* Add more media queries for additional breakpoints if needed */
+
+/* body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
@@ -47,8 +77,8 @@ body {
 
 .home-img {
   position: relative;
-  width: 1500px;
-  height: 700px;
+  width: 100%;
+  height: 150%;
  opacity: 0.9;
   
 }
@@ -63,12 +93,7 @@ body {
 }
 
 .navbar {
-  /* position: fixed;
-  overflow: hidden;
-  background-color: white;
-  width: 500px;
-  height: 50px;
-  left: 1000px; */
+
   position: relative;
 
 
@@ -84,7 +109,81 @@ body {
   position: relative;
   left: 200px;
   top: -30px;
+} */
+
+/* ------- */
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+.web {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 0px;
+}
+
+.home-img {
+  position: relative;
+  width: 100%;
+  height: auto; /* Change to 'auto' for responsiveness */
+  max-height: 150%; /* Adjust as needed */
+  opacity: 0.9;
+}
+
+.home2 {
+  position: relative;
+  top: -600px;
+}
+
+
+.navbar {
+  position: fixed;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 1000;
+  height: 6rem;
+
+  
+}
+
+.navtabs {
+  position: relative;
+  left: 1000px;
+}
+
+.networkHeader {
+  position: relative;
+  left: 200px;
+  top: -30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home-img {
+    max-height: 100%; /* Adjust for smaller screens */
+  }
+
+  .home2 {
+    top: 0;
+  }
+
+  .navtabs {
+    left: 0;
+  }
+
+  .networkHeader {
+    left: 20px;
+    top: 0;
+  }
+}
+
+/* Add more media queries for additional breakpoints if needed */
 
 
 .header1 {
@@ -779,7 +878,7 @@ body {
 
 .contact {
   position: relative;
-  top: -1350px;
+  top: -1380px;
   background-color: #F3F5F5;
   font-weight: 700;
   width: 1450px;
@@ -800,30 +899,12 @@ body {
   font-weight: normal;
 }
 
-.contact1-header {
-  font-weight: lighter;
-}
 
-.contact2-header {
-  font-weight: lighter;
-}
-
-.contact3-header {
-  font-weight: lighter;
-}
-
-.contact4-header {
-  font-weight: lighter;
-}
-
-.contact5-header {
-  font-weight: lighter;
-}
 
 .contact1 {
   position: relative;
-  left: 400px;
-  bottom: -200px;
+  left: 22rem;
+  bottom: -7rem;
 }
 
 .firstname-input {
@@ -834,8 +915,9 @@ body {
 
 .contact2 {
   position: relative;
-  left: 770px;
-  bottom: -92.5px;
+  left: 47rem;
+  bottom: -4rem;
+  
 }
 
 .lastname-input {
@@ -852,14 +934,15 @@ body {
 
 .contact3 {
   position: relative;
-  left: 400px;
-  bottom: -100px;
+  bottom: -10rem;
+  left: 22rem;
+
 }
 
 .contact4 {
-  position: relative;
-  left: 770px;
-  bottom: 7px;
+ position: relative;
+ bottom: -7rem;
+ left: 47rem;
 }
 
 .phone-input {
@@ -870,8 +953,9 @@ body {
 
 .contact5 {
   position: relative;
-  left: 650px;
-  bottom: -10px;
+  bottom: -13rem;
+  left: 38rem;
+
 }
 
 .contact5-header {
@@ -890,12 +974,12 @@ body {
 
 .contactbtn {
   position: relative;
-  left: 400px;
-  bottom: -40px;
+  left: 22rem;
+  bottom: -20rem;
   background-color: #4175FC;
   color: #ffffff;
-  width: 730px;
-  height: 45px;
+  width: 50%;
+  height: 2.5rem;
   border-radius: 5px;
 
 
@@ -905,7 +989,7 @@ body {
   background-color: black;
   color: white;
   position: relative;
-  bottom: -230px;
+  bottom: -400px;
   height: 250px;
 }
 
@@ -1023,9 +1107,9 @@ body {
 
 .copyright2 {
   position: relative;
-  left: 100px;
+  left: 5rem;
   font-style: italic;
-  top: -50px;
+  bottom: -7rem;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -1033,8 +1117,8 @@ body {
 
 .sitemap {
   position: relative;
-  left: 1300px;
-  top: -60px;
+  left: 80rem;
+  bottom:  -6rem;
   font-style: italic;
   box-sizing: border-box;
   margin: 0;
@@ -1090,9 +1174,42 @@ body {
   font-weight: bolder;
 }
 
-.ten4 {
+/* .ten4 {
   position: relative;
   left: 120px;
   bottom: -40px;
   font-weight: bolder;
+} */
+
+.ten4 {
+  left: 120px;
+}
+
+
+/* Responsive styles for medium screens */
+@media screen and (max-width: 1199px) {
+.header1,
+.header2,
+.provide-txt,
+.provide-txt2,
+.service,
+.service-box,
+/* ... other styles ... */
+.ten4 {
+  left: 90px;
+}
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 767px) {
+.header1,
+.header2,
+.provide-txt,
+.provide-txt2,
+.service,
+.service-box,
+/* ... other styles ... */
+.ten4 {
+  left: 60px;
+}
 }
