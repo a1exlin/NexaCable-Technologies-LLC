@@ -16,7 +16,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
     
-        axios.post('http://localhost:3001', { firstname, email, number, lastname, message })
+        axios.post('http://nexacable.net/api/contactForm.php', { firstname, email, number, lastname, message })
             .then(response => {
                 console.log('Inquiry sent successfully!', response.data);
             })
@@ -36,7 +36,7 @@ function Contact() {
                     </div>
                     <p className="contact-subheader"> Use the form below to submit requests and/or questions. We will get back to you as soon as possible. </p>
                     <div className='contact1'>
-                        <input placeholder='First Name' className='name'type='firstname'autoComplete="off" onChange={(e) => setFirstname(e.target.value)}></input>
+                        <input placeholder='First Name' className='firstname'type='firstname' onChange={(e) => setFirstname(e.target.value)}></input>
                     </div>
                     <div className='contact2'>
                         <input placeholder='Last Name' className='lastname' type='lastname'autoComplete="off"onChange={(e) => setLastname(e.target.value)}></input>
