@@ -1,1216 +1,1079 @@
-.phone-number{
-  position: relative;
-  top: -85px;
-  right: 60%;
-  color: white;
+.navbar {
+    position: fixed;
+    display: flex;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    z-index: 1000;
+    height: 6rem;
 }
-
-/* Default styling */
 .navbarLogo {
-  width: 7.0rem;
+    height: 6rem;
+}
+.navLinks {
+    display: flex;
+    align-items: center;
+    margin-left: 0rem;
+}
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.25rem;
+}
+.nav-link:hover {
+    color: blue;
+}
+.phone-number{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
 }
 
-.nav1, .nav2, .nav3, .nav4, .nav5 {
-  position: relative;
-  top: -50px;
-  color: white;
-}
 
-.nav2 {
-  left: 20px;
-}
 
-.nav3 {
-  left: 40px;
-}
 
-.nav4 {
-  left: 60px;
-}
 
-.nav5 {
-  left: 80px;
-}
 
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .nav1, .nav2, .nav3, .nav4, .nav5 {
-    position: static;
-    top: 0;
-    left: 0;
-    margin: 10px 0;
-  }
 
-  .nav2 {
-    left: 0;
-  }
 
-  .nav3 {
-    left: 0;
-  }
 
-  .nav4 {
-    left: 0;
-  }
 
-  .nav5 {
-    left: 0;
-  }
-}
 
-/* Add more media queries for additional breakpoints if needed */
-
-/* body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-
-.web{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 0px;
-}
 
 .home-img {
-  position: relative;
-  width: 100%;
-  height: 150%;
- opacity: 0.9;
-  
+    width: 100%;
+    opacity: 0.9;
 }
-
 .home2 {
-  position: relative;
-  top: -600px;
+    position: relative;
+    top: -30rem;
 }
-
-body {
-  border-width: 1in;
-}
-
-.navbar {
-
-  position: relative;
-
-
-}
-
-.navtabs {
-  position: relative;
-  left: 1000px;
-
-}
-
 .networkHeader {
-  position: relative;
-  left: 200px;
-  top: -30px;
-} */
-
-/* ------- */
-
-body {
-  overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.web {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 0px;
-}
-
-.home-img {
-  position: relative;
-  width: 100%;
-  height: auto; /* Change to 'auto' for responsiveness */
-  max-height: 150%; /* Adjust as needed */
-  opacity: 0.9;
-}
-
-.home2 {
-  position: relative;
-  top: -600px;
-}
-
-
-.navbar {
-  position: fixed;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5); 
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  z-index: 1000;
-  height: 6rem;
-
-  
-}
-
-.navtabs {
-  position: relative;
-  left: 1000px;
-}
-
-.networkHeader {
-  position: relative;
-  left: 200px;
-  top: -30px;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .home-img {
-    max-height: 100%; /* Adjust for smaller screens */
-  }
-
-  .home2 {
-    top: 0;
-  }
-
-  .navtabs {
-    left: 0;
-  }
-
-  .networkHeader {
-    left: 20px;
-    top: 0;
-  }
-}
-
-/* Add more media queries for additional breakpoints if needed */
-
-
+    position: relative;
+    left: 200px;
+    top: -30px;
+}  
 .header1 {
-  position: relative;
-  left: 100px;
-  color: white;
-  font-size: 50px;
+    position: relative;
+    left: 100px;
+    color: white;
+    font-size: 50px;
 }
-
 .header2 {
-  position: relative;
-  left: 100px;
-  color: white;
-  font-size: 50px;
-  top: -40px;
+    position: relative;
+    left: 100px;
+    color: white;
+    font-size: 50px;
+    top: -40px;
 }
-
 .provide-txt {
-
-  position: relative;
-  left: 100px;
-  font-weight: bolder;
-  color: white;
-  top: -60px;
+    position: relative;
+    left: 100px;
+    font-weight: bolder;
+    color: white;
+    top: -60px;
 }
-
 .provide-txt2 {
-  position: relative;
-  left: 100px;
-  font-size: medium;
-  font-weight: bolder;
-  color: white;
-  top: -70px;
-
+    position: relative;
+    left: 100px;
+    font-size: medium;
+    font-weight: bolder;
+    color: white;
+    top: -70px;
 }
-
-
-.service {
-
-  width: 1100px;
-  height: 200px;
-  position: relative;
-  left: 100px;
-  top: -350px;
-  background-color: wheat;
-  border-radius: 10px;
-  color: blue
-}
-
-.service-box {
-  position: relative;
-  background-color: black;
-  width: 1430px;
-  height: 800px;
-  inline-size: auto;
-  top: -530px;
-
-
-
-}
-
-.service-image1 {
-  position: relative;
-  left: 100px;
-  top: -1800px;
-  width: 400px;
-  height: 250px;
-  inline-size: auto;
-
-}
-
-.service-image2 {
-  position: relative;
-  left: 120px;
-  top: -1800px;
-  width: 400px;
-  height: 250px;
-  inline-size: auto;
-
-}
-
-.service-image3 {
-  position: relative;
-  left: 140px;
-  top: -1800px;
-  width: 400px;
-  height: 250px;
-  inline-size: auto;
-
-}
-
-.header-service {
-  color: #084AF3;
-  position: relative;
-  bottom: -100px;
-  left: 600px;
-  inline-size: auto;
-
-}
-
-
-.sendbtn {
-  position: relative;
-  left: 510px;
-  bottom: 45px;
-  height: 40px;
-  width: 150px;
-  background-color: #0076FF;
-  color: white;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  font-size: small;
-  top: -500px;
-
-
-}
-
-.callUs {
-  position: relative;
-  bottom: -10px;
-  left: 200px;
-  background-color: #0076FF;
-  color: white;
-  width: 125px;
-  height: 50px;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.aboutPic {
-  position: relative;
-  left: -250px;
-  bottom: -200px;
-  width: 350px;
-  top: -100px;
-}
-
-.quicktxt {
-  font-weight: bold;
-  font-size: larger;
-  position: relative;
-  bottom: -40px;
-  left: 50px;
-  color: #0076FF
-}
-
-.sendtxt {
-  color: black;
-  font-weight: bold;
-  font-size: x-large;
-  position: relative;
-  left: 50px;
-  bottom: -30px;
-
-
-}
-
-.name {
-  position: relative;
-  left: 460px;
-  width: 250px;
-  height: 40px;
-  top: -500px;
-
-}
-
-.email {
-  position: relative;
-  left: 470px;
-  width: 250px;
-  height: 40px;
-  top: -500px;
-}
-
-
-
-.aboutlogo {
-  position: relative;
-  right: -100px;
-  width: 620px;
-  height: 450px;
-  top: -300px;
-
-
-}
-
-.aboutheader {
-
-  position: relative;
-  left: 600px;
-  top: -740px;
-}
-
-.about-text {
-
-  word-wrap: break-word;
-  position: relative;
-  line-height: 25px;
-  inline-size: 400px;
-  position: relative;
-  left: 200px;
-  top: -30px;
-
-
-}
-
-.about-text2 {
-  position: relative;
-  word-wrap: break-word;
-  line-height: 30px;
-  width: 400px;
-  left: 200px;
-  top: -20px;
-}
-
-.about-text3 {
-  line-height: 30px;
-  position: relative;
-  width: 500px;
-  left: 200px;
-  top: -50px;
-
-}
-
-
-
-.business {
-  background-color: #0076FF;
-  position: relative;
-  top: -1460px;
-  left: 100px;
-  width: 300px;
-  height: 150px;
-  color: white;
-  flex-wrap: initial;
-  flex-direction: initial;
-  flex-wrap: initial;
-  flex-direction: initial;
-  --flex-direction: initial;
-  --flex-wrap: initial;
-  --justify-content: initial;
-  --align-items: initial;
-  --align-content: initial;
-  --gap: initial;
-  --flex-basis: initial;
-  --flex-grow: initial;
-  --flex-shrink: initial;
-  --order: initial;
-  --align-self: initial;
-  flex-basis: var(--flex-basis);
-  flex-grow: var(--flex-grow);
-  flex-shrink: var(--flex-shrink);
-  order: var(--order);
-  align-self: var(--align-self);
-}
-
-.client {
-  position: relative;
-  left: 400px;
-  top: -1630px;
-  width: 300px;
-  height: 150px;
-  background-color: #F3F5F5;
-  color: black;
-  flex-wrap: initial;
-  flex-direction: initial;
-  --flex-direction: initial;
-  --flex-wrap: initial;
-  --justify-content: initial;
-  --align-items: initial;
-  --align-content: initial;
-  --gap: initial;
-  --flex-basis: initial;
-  --flex-grow: initial;
-  --flex-shrink: initial;
-  --order: initial;
-  --align-self: initial;
-  flex-basis: var(--flex-basis);
-  flex-grow: var(--flex-grow);
-  flex-shrink: var(--flex-shrink);
-  order: var(--order);
-  align-self: var(--align-self);
-
-
-}
-
-.project {
-  position: relative;
-  top: -1800px;
-  left: 700px;
-  background-color: black;
-  width: 300px;
-  height: 150px;
-  color: white;
-  flex-wrap: initial;
-  flex-direction: initial;
-  flex-wrap: initial;
-  flex-direction: initial;
-  --flex-direction: initial;
-  --flex-wrap: initial;
-  --justify-content: initial;
-  --align-items: initial;
-  --align-content: initial;
-  --gap: initial;
-  --flex-basis: initial;
-  --flex-grow: initial;
-  --flex-shrink: initial;
-  --order: initial;
-  --align-self: initial;
-  flex-basis: var(--flex-basis);
-  flex-grow: var(--flex-grow);
-  flex-shrink: var(--flex-shrink);
-  order: var(--order);
-  align-self: var(--align-self);
-}
-
-.staff {
-  position: relative;
-  left: 1000px;
-  top: -1970px;
-  background-color: #0076FF;
-  width: 300px;
-  height: 150px;
-  color: white;
-  flex-wrap: wrap;
-  flex-wrap: initial;
-  flex-direction: initial;
-  --flex-direction: initial;
-  --flex-wrap: initial;
-  --justify-content: initial;
-  --align-items: initial;
-  --align-content: initial;
-  --gap: initial;
-  --flex-basis: initial;
-  --flex-grow: initial;
-  --flex-shrink: initial;
-  --order: initial;
-  --align-self: initial;
-  flex-basis: var(--flex-basis);
-  flex-grow: var(--flex-grow);
-  flex-shrink: var(--flex-shrink);
-  order: var(--order);
-  align-self: var(--align-self);
-}
-
-.cable {
-  color: #ffffff;
-  position: relative;
-  top: -2250px;
-  left: 100px;
-  word-wrap: break-word;
-  inline-size: 400px;
-  line-height: 2;
-  font-size: medium;
-
-
-
-}
-
-.cable-header {
-  color: #00ffff;
-  position: relative;
-  top: -2240px;
-  left: 100px;
-  font-weight: bolder;
-}
-
-.structure-header {
-  color: #00ffff;
-  position: relative;
-  top: -2020px;
-  left: 510px;
-  font-weight: bolder;
-
-}
-
-.organize {
-  line-height: 2;
-  font-size: medium;
-  inline-size: 400px;
-  position: relative;
-  top: -2030px;
-  left: 510px;
-  color: white;
-}
-
-.network-header {
-  color: #00ffff;
-  position: relative;
-  top: -1800px;
-  left: 920px;
-
-
-}
-
-.team {
-  position: relative;
-  top: -1810px;
-  left: 920px;
-  color: #ffffff;
-  font-size: medium;
-  inline-size: 400px;
-  line-height: 2;
-}
-
-.testimonial {
-  position: relative;
-  top: -2150px;
-  height: 170px;
-  background-color: #F3F5F5;
-}
-
-.yelp {
-  width: 75px;
-  position: relative;
-  left: 550px;
-  top: -30px;
-
-}
-
-.review {
-  color: #0076FF;
-  position: relative;
-  top: 60px;
-  left: 50px;
-
-
-}
-
-.climbing {
-  color: #0076FF;
-  position: relative;
-  top: 50px;
-  left: 50px;
-}
-
-.yelp-text {
-  position: relative;
-  left: 650px;
-  top: -120px;
-  font-weight: bolder;
-}
-
-.yelp-text2 {
-  position: relative;
-  left: 650px;
-  top: -130px;
-
-}
-
-.google {
-  width: 75px;
-  position: relative;
-  left: 850px;
-  top: -250px;
-
-}
-
-.google2 {
-  position: relative;
-  left: 1050px;
-  top: -200px;
-  font-weight: bolder;
-}
-
-.google3 {
-
-  position: relative;
-  left: 1050px;
-  top: -265px;
-}
-
-
-.quote {
-  position: relative;
-  left: -570px;
-  top: -730px;
-  background-color: #4175FC;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  font-size: 16px;
-  border-radius: 5px;
-  width: 200px;
-
-
-
-}
-
-.messageInput {
-
-  height: 250px;
-
-
-}
-
-
-
-.about1 {
-  color: #0076FF;
-  text-decoration: dotted;
-  position: relative;
-  left: 200px;
-  top: -30px;
-  font-size: larger;
-  font-weight: bolder;
-}
-
-.systemHeader {
-  position: relative;
-  left: 200px;
-  top: -50px;
-
-}
-
-.specialtiesHeader {
-  color: #0076FF;
-  position: relative;
-  left: 200px;
-  top: -30px;
-
-
-}
-
-
-
-.review-header {
-  position: relative;
-  left: 600px;
-  top: -150px;
-  font-weight: bolder;
-}
-
-.review-image1 {
-  width: 100px;
-  border-radius: 100px;
-  position: relative;
-  left: 150px;
-  bottom: -25px;
-}
-
-.review-image2 {
-  width: 100px;
-  border-radius: 100px;
-  position: relative;
-  left: 150px;
-  bottom: -25px;
-}
-
-.review-image3 {
-  width: 100px;
-  border-radius: 100px;
-  position: relative;
-  left: 150px;
-  bottom: -25px;
-}
-
-.review1 {
-  background-color: #F3F5F5;
-  width: 400px;
-  height: 500px;
-  position: relative;
-  left: 100px;
-  top: -100px;
-
-}
-
-.review2 {
-  position: relative;
-  left: 520px;
-  top: -600px;
-  background-color: #F3F5F5;
-  width: 400px;
-  height: 500px;
-}
-
-.review3 {
-  position: relative;
-  left: 940px;
-  top: -1100px;
-  width: 400px;
-  height: 500px;
-  background-color: #F3F5F5;
-
-}
-
-.star {
-  position: relative;
-  left: 143px;
-  bottom: -20px;
-  color: #4175FC;
-
-
-}
-
-.star2 {
-  position: relative;
-  left: 143px;
-  bottom: -20px;
-  color: #4175FC;
-
-}
-
-.star3 {
-  position: relative;
-  left: 143px;
-  bottom: -20px;
-  color: #4175FC;
-
-}
-
-.review-header1 {
-  position: relative;
-  left: 150px;
-  bottom: -15px;
-  left: 165px;
-
-}
-
-.dl1 {
-  position: relative;
-  left: 185px;
-  bottom: -20px;
-  font-weight: bold;
-  font-size: larger;
-}
-
-.review1-text {
-  position: relative;
-  bottom: -20px;
-  left: 60px;
-  line-height: 30px;
-  inline-size: 1px;
-  word-wrap: initial;
-  width: 290px;
-
-}
-
-
-.dl2 {
-  position: relative;
-  left: 185px;
-  bottom: -20px;
-  font-weight: bold;
-  font-size: larger;
-}
-
-.review-header2 {
-  position: relative;
-  left: 150px;
-  bottom: -15px;
-  left: 165px;
-}
-
-.review2-text {
-  position: relative;
-  bottom: -20px;
-  left: 60px;
-  line-height: 30px;
-  inline-size: 1px;
-  word-wrap: initial;
-  width: 290px;
-
-}
-
-.dl3 {
-  position: relative;
-  left: 185px;
-  bottom: -20px;
-  font-weight: bold;
-  font-size: larger;
-}
-
-.review-header3 {
-  position: relative;
-  left: 150px;
-  bottom: -15px;
-  left: 165px;
-}
-
-.review3-text {
-  position: relative;
-  bottom: -20px;
-  left: 60px;
-  line-height: 30px;
-  inline-size: 1px;
-  word-wrap: initial;
-  width: 290px;
-
-}
-
-
-.contact {
-  position: relative;
-  top: -1380px;
-  background-color: #F3F5F5;
-  font-weight: 700;
-  width: 1450px;
-  height: 980px;
-
-}
-
-.contact-header {
-  position: relative;
-  left: 400px;
-  bottom: -70px;
-}
-
-.contact-subheader {
-  position: relative;
-  left: 350px;
-  bottom: -70px;
-  font-weight: normal;
-}
-
-
-
-.contact1 {
-  position: relative;
-  left: 22rem;
-  bottom: -7rem;
-}
-
-.firstname-input {
-  width: 350px;
-  height: 40px;
-  font-weight: lighter;
-}
-
-.contact2 {
-  position: relative;
-  left: 47rem;
-  bottom: -4rem;
   
-}
-
-.lastname-input {
-  width: 350px;
-  height: 40px;
-  font-weight: lighter;
-}
-
-.email-input {
-  width: 350px;
-  height: 40px;
-  font-weight: lighter;
-}
-
-.contact3 {
-  position: relative;
-  bottom: -10rem;
-  left: 22rem;
-
-}
-
-.contact4 {
- position: relative;
- bottom: -7rem;
- left: 47rem;
-}
-
-.phone-input {
-  width: 350px;
-  height: 40px;
-  font-weight: lighter;
-}
-
-.contact5 {
-  position: relative;
-  bottom: -13rem;
-  left: 38rem;
-
-}
-
-.contact5-header {
-  position: relative;
-  left: -250px;
-
-}
-
-.message-input {
-  position: relative;
-  left: -250px;
-  width: 720px;
-  height: 120px;
-
-}
-
-.contactbtn {
-  position: relative;
-  left: 22rem;
-  bottom: -20rem;
-  background-color: #4175FC;
-  color: #ffffff;
-  width: 50%;
-  height: 2.5rem;
-  border-radius: 5px;
-
-
-}
-
-.copyright {
-  background-color: black;
-  color: white;
-  position: relative;
-  bottom: -400px;
-  height: 250px;
-}
-
-.visit-header {
-  color: #00ffff;
-  position: relative;
-  left: 650px;
-  bottom: 90px;
-  font-weight: 400px;
-}
-
-.hour-header {
-  color: #00ffff;
-  position: relative;
-  left: 1100px;
-  top: -100px;
-  font-weight: 400px;
-}
-
-.black-logo {
-  width: 120px;
-  height: 50px;
-  position: relative;
-  bottom: -50px;
-  left: 100px;
-}
-
-.commercial-txt {
-  position: relative;
-  bottom: -70px;
-  left: 100px;
-  font-weight: lighter;
-}
-
-.commercial-txt2 {
-  position: relative;
-  bottom: -60px;
-  left: 100px;
-  font-weight: lighter;
-}
-
-.commercial-txt3 {
-  position: relative;
-  bottom: -50px;
-  left: 100px;
-  font-weight: lighter;
-}
-
-.address-txt {
-  position: relative;
-  left: 650px;
-  top: -80px;
-  font-weight: lighter;
-
-
-}
-
-.address-txt2 {
-  position: relative;
-  left: 650px;
-  top: -90px;
-  font-weight: lighter;
-}
-
-.address-txt3 {
-  position: relative;
-  left: 650px;
-  top: -100px;
-  font-weight: lighter;
-}
-
-.hour-txt {
-  position: relative;
-  top: -210px;
-  left: 1100px;
-  font-weight: lighter;
-}
-
-.hour-txt2 {
-  position: relative;
-  left: 1100px;
-  top: -220px;
-  font-weight: lighter;
-}
-
-.hour-txt3 {
-  position: relative;
-  top: -230px;
-  left: 1100px;
-  font-weight: lighter;
-
-}
-
-.hour-txt4 {
-  position: relative;
-  top: -240px;
-  left: 1100px;
-  font-weight: lighter;
-}
-
-
-.hour-header {
-  position: relative;
-  top: -210px;
-}
-
-.copyright1 {
-  position: relative;
-  bottom: -300px;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-.copyright2 {
-  position: relative;
-  left: 5rem;
-  font-style: italic;
-  bottom: -7rem;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.sitemap {
-  position: relative;
-  left: 80rem;
-  bottom:  -6rem;
-  font-style: italic;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-.ten {
-  position: relative;
-  left: 120px;
-  bottom: -40px;
-  font-weight: bolder;
-}
-
-.year {
-  position: relative;
-  left: 85px;
-  bottom: -40px;
-  font-size: medium;
-}
-
-.ten2 {
-  position: relative;
-  left: 120px;
-  bottom: -40px;
-  font-weight: bolder;
-}
-
-.happy {
-  position: relative;
-  left: 100px;
-  bottom: -40px;
-  font-size: medium;
-}
-
-.ten3 {
-  position: relative;
-  left: 120px;
-  bottom: -40px;
-  font-weight: bolder;
-}
-
-.project-txt {
-  position: relative;
-  left: 85px;
-  bottom: -40px;
-  font-weight: bolder;
-}
-
-.trained {
-  position: relative;
-  left: 110px;
-  bottom: -40px;
-  font-weight: bolder;
-}
-
-/* .ten4 {
-  position: relative;
-  left: 120px;
-  bottom: -40px;
-  font-weight: bolder;
-} */
-
-.ten4 {
-  left: 120px;
-}
-
-
-/* Responsive styles for medium screens */
-@media screen and (max-width: 1199px) {
-.header1,
-.header2,
-.provide-txt,
-.provide-txt2,
-.service,
-.service-box,
-/* ... other styles ... */
-.ten4 {
-  left: 90px;
-}
-}
-
-
-/* Responsive Styles for medium screens */
-@media (max-width: 1199px) {
-  .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
-    left: 6vw;
+  
+  .service {
+  
+    width: 1100px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: -350px;
+    background-color: wheat;
+    border-radius: 10px;
+    color: blue
   }
-}
-
-/* Responsive Styles for small screens */
-@media (max-width: 767px) {
-  .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
-    left: 4vw;
+  
+  .service-box {
+    position: relative;
+    background-color: black;
+    width: 1430px;
+    height: 800px;
+    inline-size: auto;
+    top: -530px;
+  
+  
+  
   }
-}
+  
+  .service-image1 {
+    position: relative;
+    left: 100px;
+    top: -1800px;
+    width: 400px;
+    height: 250px;
+    inline-size: auto;
+  
+  }
+  
+  .service-image2 {
+    position: relative;
+    left: 120px;
+    top: -1800px;
+    width: 400px;
+    height: 250px;
+    inline-size: auto;
+  
+  }
+  
+  .service-image3 {
+    position: relative;
+    left: 140px;
+    top: -1800px;
+    width: 400px;
+    height: 250px;
+    inline-size: auto;
+  
+  }
+  
+  .header-service {
+    color: #084AF3;
+    position: relative;
+    bottom: -100px;
+    left: 600px;
+    inline-size: auto;
+  
+  }
+  
+  
+  .sendbtn {
+    position: relative;
+    left: 510px;
+    bottom: 45px;
+    height: 40px;
+    width: 150px;
+    background-color: #0076FF;
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-size: small;
+    top: -500px;
+  
+  
+  }
+  
+  .callUs {
+    position: relative;
+    bottom: -10px;
+    left: 200px;
+    background-color: #0076FF;
+    color: white;
+    width: 125px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .aboutPic {
+    position: relative;
+    left: -250px;
+    bottom: -200px;
+    width: 350px;
+    top: -100px;
+  }
+  
+  .quicktxt {
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    bottom: -40px;
+    left: 50px;
+    color: #0076FF
+  }
+  
+  .sendtxt {
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    left: 50px;
+    bottom: -30px;
+  
+  
+  }
+  
+  .name {
+    position: relative;
+    left: 460px;
+    width: 250px;
+    height: 40px;
+    top: -500px;
+  
+  }
+  
+  .email {
+    position: relative;
+    left: 470px;
+    width: 250px;
+    height: 40px;
+    top: -500px;
+  }
+  
+  
+  
+  .aboutlogo {
+    position: relative;
+    right: -100px;
+    width: 620px;
+    height: 450px;
+    top: -300px;
+  
+  
+  }
+  
+  .aboutheader {
+  
+    position: relative;
+    left: 600px;
+    top: -740px;
+  }
+  
+  .about-text {
+  
+    word-wrap: break-word;
+    position: relative;
+    line-height: 25px;
+    inline-size: 400px;
+    position: relative;
+    left: 200px;
+    top: -30px;
+  
+  
+  }
+  
+  .about-text2 {
+    position: relative;
+    word-wrap: break-word;
+    line-height: 30px;
+    width: 400px;
+    left: 200px;
+    top: -20px;
+  }
+  
+  .about-text3 {
+    line-height: 30px;
+    position: relative;
+    width: 500px;
+    left: 200px;
+    top: -50px;
+  
+  }
+  
+  
+  
+  .business {
+    background-color: #0076FF;
+    position: relative;
+    top: -1460px;
+    left: 100px;
+    width: 300px;
+    height: 150px;
+    color: white;
+    flex-wrap: initial;
+    flex-direction: initial;
+    flex-wrap: initial;
+    flex-direction: initial;
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+  }
+  
+  .client {
+    position: relative;
+    left: 400px;
+    top: -1630px;
+    width: 300px;
+    height: 150px;
+    background-color: #F3F5F5;
+    color: black;
+    flex-wrap: initial;
+    flex-direction: initial;
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+  
+  
+  }
+  
+  .project {
+    position: relative;
+    top: -1800px;
+    left: 700px;
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    color: white;
+    flex-wrap: initial;
+    flex-direction: initial;
+    flex-wrap: initial;
+    flex-direction: initial;
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+  }
+  
+  .staff {
+    position: relative;
+    left: 1000px;
+    top: -1970px;
+    background-color: #0076FF;
+    width: 300px;
+    height: 150px;
+    color: white;
+    flex-wrap: wrap;
+    flex-wrap: initial;
+    flex-direction: initial;
+    --flex-direction: initial;
+    --flex-wrap: initial;
+    --justify-content: initial;
+    --align-items: initial;
+    --align-content: initial;
+    --gap: initial;
+    --flex-basis: initial;
+    --flex-grow: initial;
+    --flex-shrink: initial;
+    --order: initial;
+    --align-self: initial;
+    flex-basis: var(--flex-basis);
+    flex-grow: var(--flex-grow);
+    flex-shrink: var(--flex-shrink);
+    order: var(--order);
+    align-self: var(--align-self);
+  }
+  
+  .cable {
+    color: #ffffff;
+    position: relative;
+    top: -2250px;
+    left: 100px;
+    word-wrap: break-word;
+    inline-size: 400px;
+    line-height: 2;
+    font-size: medium;
+  
+  
+  
+  }
+  
+  .cable-header {
+    color: #00ffff;
+    position: relative;
+    top: -2240px;
+    left: 100px;
+    font-weight: bolder;
+  }
+  
+  .structure-header {
+    color: #00ffff;
+    position: relative;
+    top: -2020px;
+    left: 510px;
+    font-weight: bolder;
+  
+  }
+  
+  .organize {
+    line-height: 2;
+    font-size: medium;
+    inline-size: 400px;
+    position: relative;
+    top: -2030px;
+    left: 510px;
+    color: white;
+  }
+  
+  .network-header {
+    color: #00ffff;
+    position: relative;
+    top: -1800px;
+    left: 920px;
+  
+  
+  }
+  
+  .team {
+    position: relative;
+    top: -1810px;
+    left: 920px;
+    color: #ffffff;
+    font-size: medium;
+    inline-size: 400px;
+    line-height: 2;
+  }
+  
+  .testimonial {
+    position: relative;
+    top: -2150px;
+    height: 170px;
+    background-color: #F3F5F5;
+  }
+  
+  .yelp {
+    width: 75px;
+    position: relative;
+    left: 550px;
+    top: -30px;
+  
+  }
+  
+  .review {
+    color: #0076FF;
+    position: relative;
+    top: 60px;
+    left: 50px;
+  
+  
+  }
+  
+  .climbing {
+    color: #0076FF;
+    position: relative;
+    top: 50px;
+    left: 50px;
+  }
+  
+  .yelp-text {
+    position: relative;
+    left: 650px;
+    top: -120px;
+    font-weight: bolder;
+  }
+  
+  .yelp-text2 {
+    position: relative;
+    left: 650px;
+    top: -130px;
+  
+  }
+  
+  .google {
+    width: 75px;
+    position: relative;
+    left: 850px;
+    top: -250px;
+  
+  }
+  
+  .google2 {
+    position: relative;
+    left: 1050px;
+    top: -200px;
+    font-weight: bolder;
+  }
+  
+  .google3 {
+  
+    position: relative;
+    left: 1050px;
+    top: -265px;
+  }
+  
+  
+  .quote {
+    position: relative;
+    left: -570px;
+    top: -730px;
+    background-color: #4175FC;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 200px;
+  
+  
+  
+  }
+  
+  .messageInput {
+  
+    height: 250px;
+  
+  
+  }
+  
+  
+  
+  .about1 {
+    color: #0076FF;
+    text-decoration: dotted;
+    position: relative;
+    left: 200px;
+    top: -30px;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .systemHeader {
+    position: relative;
+    left: 200px;
+    top: -50px;
+  
+  }
+  
+  .specialtiesHeader {
+    color: #0076FF;
+    position: relative;
+    left: 200px;
+    top: -30px;
+  
+  
+  }
+  
+  
+  
+  .review-header {
+    position: relative;
+    left: 600px;
+    top: -150px;
+    font-weight: bolder;
+  }
+  
+  .review-image1 {
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 150px;
+    bottom: -25px;
+  }
+  
+  .review-image2 {
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 150px;
+    bottom: -25px;
+  }
+  
+  .review-image3 {
+    width: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 150px;
+    bottom: -25px;
+  }
+  
+  .review1 {
+    background-color: #F3F5F5;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 100px;
+    top: -100px;
+  
+  }
+  
+  .review2 {
+    position: relative;
+    left: 520px;
+    top: -600px;
+    background-color: #F3F5F5;
+    width: 400px;
+    height: 500px;
+  }
+  
+  .review3 {
+    position: relative;
+    left: 940px;
+    top: -1100px;
+    width: 400px;
+    height: 500px;
+    background-color: #F3F5F5;
+  
+  }
+  
+  .star {
+    position: relative;
+    left: 143px;
+    bottom: -20px;
+    color: #4175FC;
+  
+  
+  }
+  
+  .star2 {
+    position: relative;
+    left: 143px;
+    bottom: -20px;
+    color: #4175FC;
+  
+  }
+  
+  .star3 {
+    position: relative;
+    left: 143px;
+    bottom: -20px;
+    color: #4175FC;
+  
+  }
+  
+  .review-header1 {
+    position: relative;
+    left: 150px;
+    bottom: -15px;
+    left: 165px;
+  
+  }
+  
+  .dl1 {
+    position: relative;
+    left: 185px;
+    bottom: -20px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .review1-text {
+    position: relative;
+    bottom: -20px;
+    left: 60px;
+    line-height: 30px;
+    inline-size: 1px;
+    word-wrap: initial;
+    width: 290px;
+  
+  }
+  
+  
+  .dl2 {
+    position: relative;
+    left: 185px;
+    bottom: -20px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .review-header2 {
+    position: relative;
+    left: 150px;
+    bottom: -15px;
+    left: 165px;
+  }
+  
+  .review2-text {
+    position: relative;
+    bottom: -20px;
+    left: 60px;
+    line-height: 30px;
+    inline-size: 1px;
+    word-wrap: initial;
+    width: 290px;
+  
+  }
+  
+  .dl3 {
+    position: relative;
+    left: 185px;
+    bottom: -20px;
+    font-weight: bold;
+    font-size: larger;
+  }
+  
+  .review-header3 {
+    position: relative;
+    left: 150px;
+    bottom: -15px;
+    left: 165px;
+  }
+  
+  .review3-text {
+    position: relative;
+    bottom: -20px;
+    left: 60px;
+    line-height: 30px;
+    inline-size: 1px;
+    word-wrap: initial;
+    width: 290px;
+  
+  }
+  
+  
+  .contact {
+    position: relative;
+    top: -1380px;
+    background-color: #F3F5F5;
+    font-weight: 700;
+    width: 1450px;
+    height: 980px;
+  
+  }
+  
+  .contact-header {
+    position: relative;
+    left: 400px;
+    bottom: -70px;
+  }
+  
+  .contact-subheader {
+    position: relative;
+    left: 350px;
+    bottom: -70px;
+    font-weight: normal;
+  }
+  
+  
+  
+  .contact1 {
+    position: relative;
+    left: 22rem;
+    bottom: -7rem;
+  }
+  
+  .firstname-input {
+    width: 350px;
+    height: 40px;
+    font-weight: lighter;
+  }
+  
+  .contact2 {
+    position: relative;
+    left: 47rem;
+    bottom: -4rem;
+    
+  }
+  
+  .lastname-input {
+    width: 350px;
+    height: 40px;
+    font-weight: lighter;
+  }
+  
+  .email-input {
+    width: 350px;
+    height: 40px;
+    font-weight: lighter;
+  }
+  
+  .contact3 {
+    position: relative;
+    bottom: -10rem;
+    left: 22rem;
+  
+  }
+  
+  .contact4 {
+   position: relative;
+   bottom: -7rem;
+   left: 47rem;
+  }
+  
+  .phone-input {
+    width: 350px;
+    height: 40px;
+    font-weight: lighter;
+  }
+  
+  .contact5 {
+    position: relative;
+    bottom: -13rem;
+    left: 38rem;
+  
+  }
+  
+  .contact5-header {
+    position: relative;
+    left: -250px;
+  
+  }
+  
+  .message-input {
+    position: relative;
+    left: -250px;
+    width: 720px;
+    height: 120px;
+  
+  }
+  
+  .contactbtn {
+    position: relative;
+    left: 22rem;
+    bottom: -20rem;
+    background-color: #4175FC;
+    color: #ffffff;
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 5px;
+  
+  
+  }
+  
+  .copyright {
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: -400px;
+    height: 250px;
+  }
+  
+  .visit-header {
+    color: #00ffff;
+    position: relative;
+    left: 650px;
+    bottom: 90px;
+    font-weight: 400px;
+  }
+  
+  .hour-header {
+    color: #00ffff;
+    position: relative;
+    left: 1100px;
+    top: -100px;
+    font-weight: 400px;
+  }
+  
+  .black-logo {
+    width: 120px;
+    height: 50px;
+    position: relative;
+    bottom: -50px;
+    left: 100px;
+  }
+  
+  .commercial-txt {
+    position: relative;
+    bottom: -70px;
+    left: 100px;
+    font-weight: lighter;
+  }
+  
+  .commercial-txt2 {
+    position: relative;
+    bottom: -60px;
+    left: 100px;
+    font-weight: lighter;
+  }
+  
+  .commercial-txt3 {
+    position: relative;
+    bottom: -50px;
+    left: 100px;
+    font-weight: lighter;
+  }
+  
+  .address-txt {
+    position: relative;
+    left: 650px;
+    top: -80px;
+    font-weight: lighter;
+  
+  
+  }
+  
+  .address-txt2 {
+    position: relative;
+    left: 650px;
+    top: -90px;
+    font-weight: lighter;
+  }
+  
+  .address-txt3 {
+    position: relative;
+    left: 650px;
+    top: -100px;
+    font-weight: lighter;
+  }
+  
+  .hour-txt {
+    position: relative;
+    top: -210px;
+    left: 1100px;
+    font-weight: lighter;
+  }
+  
+  .hour-txt2 {
+    position: relative;
+    left: 1100px;
+    top: -220px;
+    font-weight: lighter;
+  }
+  
+  .hour-txt3 {
+    position: relative;
+    top: -230px;
+    left: 1100px;
+    font-weight: lighter;
+  
+  }
+  
+  .hour-txt4 {
+    position: relative;
+    top: -240px;
+    left: 1100px;
+    font-weight: lighter;
+  }
+  
+  
+  .hour-header {
+    position: relative;
+    top: -210px;
+  }
+  
+  .copyright1 {
+    position: relative;
+    bottom: -300px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .copyright2 {
+    position: relative;
+    left: 5rem;
+    font-style: italic;
+    bottom: -7rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sitemap {
+    position: relative;
+    left: 80rem;
+    bottom:  -6rem;
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .ten {
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  .year {
+    position: relative;
+    left: 85px;
+    bottom: -40px;
+    font-size: medium;
+  }
+  
+  .ten2 {
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  .happy {
+    position: relative;
+    left: 100px;
+    bottom: -40px;
+    font-size: medium;
+  }
+  
+  .ten3 {
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  .project-txt {
+    position: relative;
+    left: 85px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  .trained {
+    position: relative;
+    left: 110px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  /* .ten4 {
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+    font-weight: bolder;
+  } */
+  
+  .ten4 {
+    left: 120px;
+  }
+  
+  
+  /* Responsive styles for medium screens */
+  @media screen and (max-width: 1199px) {
+  .header1,
+  .header2,
+  .provide-txt,
+  .provide-txt2,
+  .service,
+  .service-box,
+  /* ... other styles ... */
+  .ten4 {
+    left: 90px;
+  }
+  }
+  
+  
+  /* Responsive Styles for medium screens */
+  @media (max-width: 1199px) {
+    .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
+      left: 6vw;
+    }
+  }
+  
+  /* Responsive Styles for small screens */
+  @media (max-width: 767px) {
+    .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
+      left: 4vw;
+    }
+  }

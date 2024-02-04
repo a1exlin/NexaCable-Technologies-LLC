@@ -4,19 +4,18 @@ import logo from '../img/NexaCableWhite.png';
 function navbar() {
 
     return (
-        
         <div className='navbar'>
-            
-         <img src={logo} alt-="NexaCable Logo" className='navbarLogo'/> 
-         <div className='navtabs'>
-            <a className='nav1'> Home</a>
-            <a className='nav2'> About</a>
-            <a className='nav3'> Services </a>
-            <a className='nav4'> Testimonials</a>
-            <a className='nav5'> Contact</a>
-            <p className='phone-number'> Call Us: (706)-477-5170</p>
-         </div>
- 
+            <img src={logo} alt-="NexaCable Logo" className='navbarLogo'/> 
+            <div className='navLinks'>
+                <a className='nav-link' href="#home">Home</a>
+                <a className='nav-link' href="#about">About</a>
+                <a className='nav-link' href="#services">Services</a>
+                <a className='nav-link' href="#reviews">Reviews</a>
+                <a className='nav-link' href="#contact">Contact</a>
+            </div>
+            <div className='phone-number'>
+                <a className='nav-link phone-number-link' href='tel:7064775170'>Call Us: (706)-477-5170</a>
+            </div>
         </div>
     );
 }
