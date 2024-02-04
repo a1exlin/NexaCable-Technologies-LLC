@@ -4,10 +4,10 @@ import axios from 'axios';
 
 
 function Contact() {
-    const [firstname, setFirstname] = useState();
+    const [fname, setFirstname] = useState();
+    const [lname, setLastname] = useState();
     const [email, setEmail] = useState();
-    const [number, setNumber] = useState();
-    const [lastname, setLastname] = useState();
+    const [phone, setNumber] = useState();
     const [message, setMessage] = useState();
     const [loading, setLoading] = useState(false);
     const [submitError, setSubmitError] = useState(null);
@@ -16,7 +16,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
     
-        axios.post('https://nexacable.net/api/contactForm.php', { firstname, email, number, lastname, message })
+        axios.post('https://nexacable.net/api/contactForm.php', { fname, lname, email, phone, message })
             .then(response => {
                 console.log('Inquiry sent successfully!', response.data);
             })
