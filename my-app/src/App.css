@@ -27,7 +27,8 @@
 .phone-number{
     display: flex;
     align-items: center;
-    margin-right: 2rem;
+    position: relative;
+    margin-left:auto;
 }
 
 
