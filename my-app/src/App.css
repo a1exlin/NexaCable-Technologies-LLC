@@ -1200,16 +1200,17 @@ body {
 }
 }
 
-/* Responsive styles for small screens */
-@media screen and (max-width: 767px) {
-.header1,
-.header2,
-.provide-txt,
-.provide-txt2,
-.service,
-.service-box,
-/* ... other styles ... */
-.ten4 {
-  left: 60px;
+
+/* Responsive Styles for medium screens */
+@media (max-width: 1199px) {
+  .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
+    left: 6vw;
+  }
 }
+
+/* Responsive Styles for small screens */
+@media (max-width: 767px) {
+  .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
+    left: 4vw;
+  }
 }
