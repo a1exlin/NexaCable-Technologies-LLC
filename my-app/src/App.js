@@ -17,11 +17,12 @@ function App() {
   <Router>
     
 <Nav/>
+<div className='nav-compensation'></div>
 <Home/>
-<About/> 
+{/* <About/> 
 <Services/>
 <Testimonials/> 
-<Contact/>
+<Contact/> */}
 
   
 

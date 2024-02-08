@@ -16,6 +16,7 @@ function navbar() {
             <div className='phone-number'>
                 <a className='nav-link phone-number-link' href='tel:7064775170'>Call Us: (706)-477-5170</a>
             </div>
+
         </div>
     );
 }
