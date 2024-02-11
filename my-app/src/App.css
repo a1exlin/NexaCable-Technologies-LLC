@@ -1,50 +1,11 @@
 /* updated responsive for home.js */
 body {
-    margin: 0 auto;
+  margin: 0 auto;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
-.navbar {
-  position: fixed;
-  display: flex;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  z-index: 1000;
-  height: 8vh;
-}
-.nav-compensation{
-  height: 6vh;
-  width: 99vw;
-}
-
-.navbarLogo {
-  height: 8vh;
-}
-
-.navLinks {
-  display: flex;
-  align-items: center;
-  margin-left: 0;
-}
-
-.nav-link {
-  color: white;
-  font-weight: bold;
-  text-decoration: none;
-  margin: 0 2vw;
-  font-size: 2vw;
-}
-
-.nav-link:hover {
-  color: blue;
-}
-
-.phone-number {
-  display: flex;
-  align-items: center;
-  position: relative;
-  margin-left: auto;
-}
+/* Nav bar is in css/Navbar.css */
 
 
 
@@ -52,43 +13,151 @@ body {
 /* home component */
 
 .home-img {
-  width: 100vw;
-  opacity: 0.9;
+  overflow: hidden;
+  width: 102vw;
+  margin: -1vw 0 0 -1vw;
+  filter: blur(3px);
+  /* Adjust the blur intensity as needed */
+  mask-image: linear-gradient(to bottom, black 35%, transparent 100%);
+  background-size: auto 100%;
+  background-position: center;
 }
+
+
 
 .home {
-    position: static;
-    display: flex;
-    flex-direction: column;
-    transform: translate(0, -4500%);
-    z-index: 10000;
-    font-size: 32px;
-    margin-left: 7vw;
-    height: 1vh;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  transform: translate(0, -4500%);
+  font-size: 32px;
+  margin-left: 7vw;
+  height: 1vh;
 }
-.header1, .header2 {
-    color: white;
-    margin: 0.5vh 0;
+
+.header1,
+.header2 {
+  color: white;
+  margin: 0;
 
 }
 
-.provide-txt, .provide-txt2 {
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
+.provide-txt,
+.provide-txt2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0.2vw 0;
 }
 
 .quote {
-    transform: translate(0, -350%);
-    margin-left: 7vw;
-    width: 12vw;
-    height: 6vh;
-    background-color: #4175FC;
-    color: white;
-    font-size: medium;
-    font-weight: bolder;
-    border-radius: 1vh;
+  transform: translate(0, -350%);
+  margin: 5vh 7vw;
+  width: 20%;
+  height: 6vh;
+  background-color: #4175FC;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 1vh;
 }
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+  .home {
+    margin-top: 5vh;
+  }
+
+  .header1, .header2 {
+    font-size: 36px;
+  }
+
+  .provide-txt, .provide-txt2 {
+    font-size: 15px;
+
+  }
+
+  .quote {
+    transform: translate(0, -475%);
+    margin: 0 7vw;
+    width: 25%;
+
+  }
+
+}
+
+@media screen and (max-width: 858px) {
+  .home {
+    margin-top: 15vh;
+  }
+}
+
+@media screen and (max-width: 702px) {
+  .home {
+    margin-top: 18vh;
+  }
+
+  .header1, .header2 {
+    font-size: 32px;
+  }
+
+  .provide-txt, .provide-txt2 {
+    font-size: 15px;
+
+  }
+
+  .quote {
+    width: 30%;
+
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .home {
+    margin-top: 30vh;
+  }
+  .header1, .header2 {
+    font-size: 28px;
+  }
+
+  .provide-txt, .provide-txt2 {
+    font-size: 12px;
+
+  }
+  .quote {
+    font-size: 12px;
+    width: 35%;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-height: 755px) {
+  .quote {
+    transform: translate(0, -200%);
+    margin: 0 7vw;
+  }
+}
+
+@media screen and (max-height: 671px) {
+  .quote {
+    transform: translate(0, -175%);
+    margin: 0 7vw;
+  }
+}
+
+
+
 /* About css */
 .aboutlogo {
   /* position: relative;
@@ -145,6 +214,7 @@ body {
   top: -50px; */
 
 }
+
 .callUs {
   position: relative;
   bottom: -10px;
@@ -156,169 +226,6 @@ body {
   border-radius: 5px;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Media query for smaller screens */
-@media screen and (max-width: 1400px) {
-    .navbar {
-      height: 6vh;
-    }
-    
-    .navbarLogo {
-      height: 6vh;
-    }
-    
-    .nav-link {
-      font-size: 3vw;
-      margin: 0 1vw;
-    }
-
-
-  .home-img {
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
-  }
-.home{
-  position: relative;
-  top: -8vh;
-}
-    .header1{
-      position: relative;
-      bottom: -22vh;
-      
-      }
-      
-      .header2{
-        position: relative;
-        top: 22vh;
-      
-      }
-      .provide-txt{
-        position: relative;
-        bottom: -23vh;
-        font-size: 10px;
-      
-      }
-      .provide-txt2{
-        position: relative;
-        bottom: -23vh;
-        font-size: 15px;
-      
-      }
-      .quote{
-        position: relative;
-        bottom: -1rem;
-        width: 20%;
-        height: 100%;
-      }
-  }
-
-
-
-
-
-/* media query for mobile devices */
-@media screen and (max-width: 500px) {
-  .quote {
-    width: 15vw !important;
-    height: 3vh !important;
-    position: relative;
-    bottom: -1vh;
-    font-size: 5px !important;
-    font-weight: bolder;
-    
-  }
-  .home {
-    top: -25vh;
-    left: 0;
-    font-size: xx-small;
-    margin-left: 5vw;
-  }
-
-  .header1 {
-    bottom: -1vh;
-  }
-
-  .header2 {
-    top: -2vh;
-  }
-
-  .provide-txt {
-    font-size: xx-small;
-    position: relative;
-    bottom: -2vh;
-  }
-
-  .provide-txt2 {
-    font-size: xx-small;
-    position: relative;
-    bottom: -1vh;
-  }
-  .home-img {
-    opacity: 0.8;
-    width: 100%;
-    height: 100%; 
-  }
-}
-
-
-
-@media screen and (max-width: 915px) {
-  .home{
-    position: relative;
-    top: -0.1vh;
-  }
-
-.header1{
-position: relative;
-bottom: -22vh;
-font-size: 20px;
-}
-
-.header2{
-  position: relative;
-  top: 22vh;
-  font-size: 20px;
-}
-.provide-txt{
-  position: relative;
-  bottom: -23vh;
-  font: 15px;
-
-}
-.provide-txt2{
-  position: relative;
-  bottom: -23vh;
-  font-size: 10px;
-
-}
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
