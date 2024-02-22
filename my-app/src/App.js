@@ -22,7 +22,7 @@ function App() {
 
 
 
- {/* <About/>  */}
+ <About/> 
 {/* <Services/>
 <Testimonials/> 
 <Contact/>  */}

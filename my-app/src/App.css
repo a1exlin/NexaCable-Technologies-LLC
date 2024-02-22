@@ -88,71 +88,68 @@ body {
     font-size: medium;
     font-weight: bolder;
     border-radius: 1vh;
+    position: relative;
+    bottom: -6vh;
 }
+
 /* About css */
+.about2{
+  margin-top: -43vh;
+ margin-left: 50vw;
+ font-size: larger;
+ 
+}
 .aboutlogo {
-  /* position: relative;
-  right: -100px;
-  width: 620px;
-  height: 450px;
-  top: -300px; */
+  width: 30vw;
+  height: 40vh;
+  margin-left: 15vw;
 
 
 }
 
 .aboutPic {
-  /* position: relative;
-  left: -250px;
-  bottom: -200px;
-  width: 350px;
-  top: -100px; */
-}
-
-.aboutheader {
-
-  /* position: relative;
-  left: 600px;
-  top: -740px; */
-}
-
-.about-text {
-
-  /* word-wrap: break-word;
+  margin-bottom: -20vh;
   position: relative;
-  line-height: 25px;
-  inline-size: 400px;
-  position: relative;
-  left: 200px;
-  top: -30px; */
+  right: 18.3vw;
+}
 
+.aboutUsHeader{
+color:#0076FF;
+margin-bottom: -2vh;
+font-size: large;
+font-weight: 100px;
+}
+
+.systemHeader{
+ margin-top: -2vh;
 
 }
 
-.about-text2 {
-  /* position: relative;
-  word-wrap: break-word;
+.about-text{
+  margin-top: -1vh;
   line-height: 30px;
-  width: 400px;
-  left: 200px;
-  top: -20px; */
+  width: 50%;
+  font-size: medium;
+ 
+}
+
+.about-text2{
+  line-height: 30px;
+  width: 50%;
+  font-size: medium;
 }
 
 .about-text3 {
-  /* line-height: 30px;
-  position: relative;
-  width: 500px;
-  left: 200px;
-  top: -50px; */
-
+  line-height: 30px;
+  width: 50%;
+  font-size: medium;
 }
+
 .callUs {
-  position: relative;
-  bottom: -10px;
-  left: 200px;
   background-color: #0076FF;
   color: white;
-  width: 125px;
-  height: 50px;
+  width: 8vw;
+  height: 5vh;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -231,6 +228,7 @@ body {
 
 /* media query for mobile devices */
 @media screen and (max-width: 500px) {
+  /* home css */
   .quote {
     width: 15vw !important;
     height: 3vh !important;
@@ -271,6 +269,79 @@ body {
     width: 100%;
     height: 100%; 
   }
+
+/* about css */
+.about{
+ justify-content: center;
+}
+  .about2{
+   font-size: larger;
+   margin-top: 25vh;
+   width: 100%;
+   margin-left: 5vw;
+
+   
+  }
+  .aboutlogo {
+    width: 85vw;
+    height: 40vh;
+    text-align: center;
+  
+  
+  }
+  
+  .aboutPic {
+  margin-top: 2vh;
+  width: 101vw;
+  height: 40vh;
+
+  }
+  
+  .aboutUsHeader{
+  color:#0076FF;
+  
+  font-size: large;
+  font-weight: 100px;
+  }
+  .networkHeader{
+    margin-bottom: -1vh;
+  }
+  .systemHeader{
+  margin-top: 1vh;
+  
+  }
+  
+  .about-text{
+   
+    line-height: 30px;
+    width: 80%;
+    font-size: medium;
+    
+   
+  }
+  
+  .about-text2{
+    line-height: 30px;
+    width: 80%;
+    font-size: medium;
+  }
+  
+  .about-text3 {
+    line-height: 30px;
+    width: 80%;
+    font-size: medium;
+  }
+  
+  .callUs {
+    background-color: #0076FF;
+    color: white;
+    width: 50vw;
+    height: 8vh;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15vw;
+  }
+  
 }
 
 
@@ -646,33 +717,9 @@ font-size: 20px;
   }
   
   
+\
   
-  .about1 {
-    color: #0076FF;
-    text-decoration: dotted;
-    position: relative;
-    left: 200px;
-    top: -30px;
-    font-size: larger;
-    font-weight: bolder;
-  }
-  
-  .systemHeader {
-    position: relative;
-    left: 200px;
-    top: -50px;
-  
-  }
-  
-  .specialtiesHeader {
-    color: #0076FF;
-    position: relative;
-    left: 200px;
-    top: -30px;
-  
-  
-  }
-  
+ 
   
   
   .review-header {
