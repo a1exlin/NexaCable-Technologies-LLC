@@ -1,0 +1,147 @@
+.navbar {
+    position: fixed;
+    display: flex;
+    background-color: rgba(25, 25, 25, 0.5);
+    mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
+    width: 100%;
+    z-index: 1000;
+    height: 8vh;
+}
+
+.nav-compensation {
+    height: 0vh;
+    width: 99vw;
+}
+
+.navbarLogo {
+    height: 8vh;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 1.2vw;
+    font-size: 1.2vw;
+}
+
+.nav-link:hover {
+    color: #4175FC;
+}
+
+.phone-number {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .navbar {
+      height: 6vh;
+    }
+  
+    .navbarLogo {
+      height: 6vh;
+    }
+    
+    .nav-link {
+      font-size: 20px;
+    }
+  }
+  
+
+
+@media screen and (max-width: 730px) {
+    .nav-link {
+        font-size: 18.5px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav-link {
+        font-size: 18.5px;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .nav-link {
+        font-size: 17.5px;
+    }
+}
+
+@media screen and (max-width: 653px) {
+    .nav-link {
+        font-size: 16.5px;
+    }
+}
+
+@media screen and (max-width: 621px) {
+    .nav-link {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .nav-link {
+        font-size: 15.5px;
+    }
+}
+@media screen and (max-width: 589px) {
+    .reviews-nav-link {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .nav-link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .nav-link {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 432px) {
+    .nav-link {
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .nav-link {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 371px) {
+    .nav-link {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    .nav-link {
+        font-size: 9px;
+    }
+}
