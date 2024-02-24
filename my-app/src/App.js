@@ -1,4 +1,5 @@
 import './App.css';
+import './css/Navbar.css';
 import Nav from './components/navbar'
 import About from './components/about'
 import Contact from './components/contact'
