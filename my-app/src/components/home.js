@@ -11,44 +11,21 @@ import logo from '../img/home-img.jpg';
 function home() {
     return (
 
-        <div className="home" >
+        <div>
 
-    <img src={logo} alt-="home-image" className='home-img'/>
-  
-            <div className="home2">
+            <div className="home-img-wrapper">
+                <img src={logo} alt-="home-image" className='home-img'/>
+            </div>
+            
+            <div className="home">
                 <h1 className="header1">NexaCable</h1>
                 <h1 className="header2">Technologies</h1>
-                <p1 className="provide-txt">We provide commercial network and security systems installation </p1>
-                <p className="provide-txt2">for large and small businesses or new residential constructions </p>
-                
+                <p className="provide-txt">We provide commercial network and security systems installation</p>
+                <p className="provide-txt2">for large and small businesses or new residential constructions</p>
             </div>
-    
-            <div className="service">
-
-
-                <p className="quicktxt"> Quick service Request </p>
-
-                <div className="sendtxt"> Send Inspection Request </div>
-
-            </div>
-            <div>
-                <input type="name" placeholder="Full Name" className="name"></input>
-
-
-                <input type="email" placeholder="Email" className="email"></input>
-
-
-                <button type="button" className="sendbtn">SEND</button>
-                <button className="quote"> Request a Quote <GoArrowRight className="arrow" /></button>
-                
-            </div>
-
-
-
+            
+            <button className="quote">REQUEST A QUOTE<GoArrowRight className="arrow" /></button>
         </div>
-
-
-
     )
 }
 

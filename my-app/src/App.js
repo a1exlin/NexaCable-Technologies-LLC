@@ -1,4 +1,5 @@
 import './App.css';
+import './css/Navbar.css';
 import Nav from './components/navbar'
 import About from './components/about'
 import Contact from './components/contact'
@@ -16,12 +17,16 @@ function App() {
 
   <Router>
     
-<Nav/>
+  <Nav/>
+<div className='nav-compensation'></div>
 <Home/>
-<About/> 
-<Services/>
+
+
+
+ <About/> 
+{/* <Services/>
 <Testimonials/> 
-<Contact/>
+<Contact/>  */}
 
   
 

@@ -1,104 +1,309 @@
-.navbar {
-    position: fixed;
-    display: flex;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);  
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    z-index: 1000;
-    height: 6rem;
-}
-.navbarLogo {
-    height: 6rem;
-}
-.navLinks {
-    display: flex;
-    align-items: center;
-    margin-left: 0rem;
-}
-.nav-link {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.25rem;
-}
-.nav-link:hover {
-    color: blue;
-}
-.phone-number{
-    display: flex;
-    align-items: center;
-    position: relative;
-    margin-left:auto;
+/* updated responsive for home.js */
+body {
+  margin: 0 auto;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
+/* Nav bar is in css/Navbar.css */
 
 
 
 
-
-
-
-
-
-
+/* home component */
 
 .home-img {
-    width: 100%;
-    opacity: 0.9;
+  overflow: hidden;
+  width: 102vw;
+  margin: -1vw 0 0 -1vw;
+  filter: blur(3px);
+  /* Adjust the blur intensity as needed */
+  mask-image: linear-gradient(to bottom, black 35%, transparent 100%);
+  background-size: auto 100%;
+  background-position: center;
 }
-.home2 {
+
+
+
+.home {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  transform: translate(0, -4500%);
+  font-size: 32px;
+  margin-left: 7vw;
+  height: 1vh;
+}
+
+.header1,
+.header2 {
+  color: white;
+  margin: 0;
+
+}
+
+.provide-txt,
+.provide-txt2 {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0.2vw 0;
+}
+
+.quote {
+  transform: translate(0, -350%);
+  margin: 5vh 7vw;
+  width: 20%;
+  height: 6vh;
+  background-color: #4175FC;
+  color: white;
+  font-size: medium;
+  font-weight: bolder;
+  border-radius: 1vh;
     position: relative;
-    top: -30rem;
+    bottom: -6vh;
 }
-.networkHeader {
+/* About css */
+.about2{
+  margin-top: -43vh;
+ margin-left: 50vw;
+ font-size: larger;
+ 
+}
+.aboutlogo {
+  width: 30vw;
+  height: 40vh;
+  margin-left: 15vw;
+
+
+}
+
+.aboutPic {
+  margin-bottom: -30vh;
+  margin-left: -24.3vw;
+
+}
+
+.aboutUsHeader{
+color:#0076FF;
+margin-bottom: -2vh;
+font-size: large;
+font-weight: 100px;
+}
+
+.systemHeader{
+ margin-top: -2vh;
+
+}
+
+.about-text{
+  margin-top: -1vh;
+  line-height: 30px;
+  width: 50%;
+  font-size: medium;
+ 
+}
+
+.about-text2{
+  line-height: 30px;
+  width: 50%;
+  font-size: medium;
+}
+
+.about-text3 {
+  line-height: 30px;
+  width: 50%;
+  font-size: medium;
+}
+
+.callUs {
+  background-color: #0076FF;
+  color: white;
+  width: 8vw;
+  height: 5vh;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 1400px) {
+    .navbar {
+      height: 6vh;
+    }
+    
+    .navbarLogo {
+      height: 6vh;
+    }
+    
+    .nav-link {
+      font-size: 3vw;
+      margin: 0 1vw;
+    }
+
+
+  .home-img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+  }
+.home{
+  position: relative;
+  top: -8vh;
+}
+    .header1{
+      position: relative;
+      bottom: -22vh;
+      
+      }
+      
+      .header2{
+        position: relative;
+        top: 22vh;
+      
+      }
+      .provide-txt{
+        position: relative;
+        bottom: -23vh;
+        font-size: 10px;
+      
+      }
+      .provide-txt2{
+        position: relative;
+        bottom: -23vh;
+        font-size: 15px;
+      
+      }
+      .quote{
+        position: relative;
+        bottom: -1rem;
+        width: 20%;
+        height: 100%;
+      }
+  }
+
+
+
+
+
+/* media query for mobile devices */
+@media screen and (max-width: 500px) {
+  .quote {
+    width: 15vw !important;
+    height: 3vh !important;
+    position: relative;
+    bottom: -1vh;
+    font-size: 5px !important;
+    font-weight: bolder;
+    
+  }
+  .home {
+    top: -25vh;
+    left: 0;
+    font-size: xx-small;
+    margin-left: 5vw;
+  }
+
+  .header1 {
+    bottom: -1vh;
+  }
+
+  .header2 {
+    top: -2vh;
+  }
+
+  .provide-txt {
+    font-size: xx-small;
+    position: relative;
+    bottom: -2vh;
+  }
+
+  .provide-txt2 {
+    font-size: xx-small;
+    position: relative;
+    bottom: -1vh;
+  }
+  .home-img {
+    opacity: 0.8;
+    width: 100%;
+    height: 100%; 
+  }
+}
+
+
+
+@media screen and (max-width: 915px) {
+  .home{
+    position: relative;
+    top: -0.1vh;
+  }
+
+.header1{
+position: relative;
+bottom: -22vh;
+font-size: 20px;
+}
+
+.header2{
+  position: relative;
+  top: 22vh;
+  font-size: 20px;
+}
+.provide-txt{
+  position: relative;
+  bottom: -23vh;
+  font: 15px;
+
+}
+.provide-txt2{
+  position: relative;
+  bottom: -23vh;
+  font-size: 10px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .networkHeader {
     position: relative;
     left: 200px;
     top: -30px;
-}  
-.header1 {
-    position: relative;
-    left: 100px;
-    color: white;
-    font-size: 50px;
-}
-.header2 {
-    position: relative;
-    left: 100px;
-    color: white;
-    font-size: 50px;
-    top: -40px;
-}
-.provide-txt {
-    position: relative;
-    left: 100px;
-    font-weight: bolder;
-    color: white;
-    top: -60px;
-}
-.provide-txt2 {
-    position: relative;
-    left: 100px;
-    font-size: medium;
-    font-weight: bolder;
-    color: white;
-    top: -70px;
-}
-  
-  
-  .service {
-  
-    width: 1100px;
-    height: 200px;
-    position: relative;
-    left: 100px;
-    top: -350px;
-    background-color: wheat;
-    border-radius: 10px;
-    color: blue
-  }
-  
-  .service-box {
+}   */
+
+
+/* separate code */
+/* .service-box {
     position: relative;
     background-color: black;
     width: 1430px;
@@ -108,9 +313,9 @@
   
   
   
-  }
-  
-  .service-image1 {
+  } */
+
+/* .service-image1 {
     position: relative;
     left: 100px;
     top: -1800px;
@@ -149,129 +354,6 @@
   
   }
   
-  
-  .sendbtn {
-    position: relative;
-    left: 510px;
-    bottom: 45px;
-    height: 40px;
-    width: 150px;
-    background-color: #0076FF;
-    color: white;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    font-size: small;
-    top: -500px;
-  
-  
-  }
-  
-  .callUs {
-    position: relative;
-    bottom: -10px;
-    left: 200px;
-    background-color: #0076FF;
-    color: white;
-    width: 125px;
-    height: 50px;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  .aboutPic {
-    position: relative;
-    left: -250px;
-    bottom: -200px;
-    width: 350px;
-    top: -100px;
-  }
-  
-  .quicktxt {
-    font-weight: bold;
-    font-size: larger;
-    position: relative;
-    bottom: -40px;
-    left: 50px;
-    color: #0076FF
-  }
-  
-  .sendtxt {
-    color: black;
-    font-weight: bold;
-    font-size: x-large;
-    position: relative;
-    left: 50px;
-    bottom: -30px;
-  
-  
-  }
-  
-  .name {
-    position: relative;
-    left: 460px;
-    width: 250px;
-    height: 40px;
-    top: -500px;
-  
-  }
-  
-  .email {
-    position: relative;
-    left: 470px;
-    width: 250px;
-    height: 40px;
-    top: -500px;
-  }
-  
-  
-  
-  .aboutlogo {
-    position: relative;
-    right: -100px;
-    width: 620px;
-    height: 450px;
-    top: -300px;
-  
-  
-  }
-  
-  .aboutheader {
-  
-    position: relative;
-    left: 600px;
-    top: -740px;
-  }
-  
-  .about-text {
-  
-    word-wrap: break-word;
-    position: relative;
-    line-height: 25px;
-    inline-size: 400px;
-    position: relative;
-    left: 200px;
-    top: -30px;
-  
-  
-  }
-  
-  .about-text2 {
-    position: relative;
-    word-wrap: break-word;
-    line-height: 30px;
-    width: 400px;
-    left: 200px;
-    top: -20px;
-  }
-  
-  .about-text3 {
-    line-height: 30px;
-    position: relative;
-    width: 500px;
-    left: 200px;
-    top: -50px;
-  
-  }
   
   
   
@@ -522,21 +604,7 @@
   }
   
   
-  .quote {
-    position: relative;
-    left: -570px;
-    top: -730px;
-    background-color: #4175FC;
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    font-size: 16px;
-    border-radius: 5px;
-    width: 200px;
   
-  
-  
-  }
   
   .messageInput {
   
@@ -546,33 +614,9 @@
   }
   
   
+\
   
-  .about1 {
-    color: #0076FF;
-    text-decoration: dotted;
-    position: relative;
-    left: 200px;
-    top: -30px;
-    font-size: larger;
-    font-weight: bolder;
-  }
-  
-  .systemHeader {
-    position: relative;
-    left: 200px;
-    top: -50px;
-  
-  }
-  
-  .specialtiesHeader {
-    color: #0076FF;
-    position: relative;
-    left: 200px;
-    top: -30px;
-  
-  
-  }
-  
+ 
   
   
   .review-header {
@@ -979,28 +1023,6 @@
     margin: 0;
     padding: 0;
   }
-  
-  .sitemap {
-    position: relative;
-    left: 80rem;
-    bottom:  -6rem;
-    font-style: italic;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .ten {
-    position: relative;
-    left: 120px;
-    bottom: -40px;
-    font-weight: bolder;
-  }
-  
-  .year {
-    position: relative;
-    left: 85px;
-    bottom: -40px;
     font-size: medium;
   }
   
@@ -1038,44 +1060,67 @@
     bottom: -40px;
     font-weight: bolder;
   }
+    
+  .sitemap {
+    position: relative;
+    left: 80rem;
+    bottom:  -6rem;
+    font-style: italic;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
   
-  /* .ten4 {
+  .ten {
+    position: relative;
+    left: 120px;
+    bottom: -40px;
+    font-weight: bolder;
+  }
+  
+  .year {
+    position: relative;
+    left: 85px;
+    bottom: -40px;
+  } */
+
+/* .ten4 {
     position: relative;
     left: 120px;
     bottom: -40px;
     font-weight: bolder;
   } */
-  
-  .ten4 {
+
+/* .ten4 {
     left: 120px;
   }
-  
-  
-  /* Responsive styles for medium screens */
-  @media screen and (max-width: 1199px) {
+   */
+
+/* Responsive styles for medium screens */
+/* @media screen and (max-width: 1199px) {
   .header1,
   .header2,
   .provide-txt,
   .provide-txt2,
   .service,
-  .service-box,
-  /* ... other styles ... */
-  .ten4 {
+  .service-box, */
+/* ... other styles ... */
+/* .ten4 {
     left: 90px;
   }
-  }
-  
-  
-  /* Responsive Styles for medium screens */
-  @media (max-width: 1199px) {
+  } */
+
+
+/* Responsive Styles for medium screens */
+/* @media (max-width: 1199px) {
     .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
       left: 6vw;
     }
-  }
-  
-  /* Responsive Styles for small screens */
-  @media (max-width: 767px) {
+  } */
+
+/* Responsive Styles for small screens */
+/* @media (max-width: 767px) {
     .header1, .header2, .provide-txt, .provide-txt2, .service, .service-box, .ten4 {
       left: 4vw;
     }
-  }
+  }  */
