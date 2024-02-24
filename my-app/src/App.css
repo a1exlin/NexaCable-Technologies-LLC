@@ -8,9 +8,7 @@ body {
 /* Nav bar is in css/Navbar.css */
 
 
-
-
-/* home component */
+/* home component css */
 
 .home-img {
   overflow: hidden;
@@ -60,16 +58,19 @@ body {
   font-size: medium;
   font-weight: bolder;
   border-radius: 1vh;
-    position: relative;
-    bottom: -6vh;
+  position: relative;
+  bottom: -6vh;
 }
+
+
 /* About css */
-.about2{
+.about2 {
   margin-top: -43vh;
- margin-left: 50vw;
- font-size: larger;
- 
+  margin-left: 50vw;
+  font-size: larger;
+
 }
+
 .aboutlogo {
   width: 30vw;
   height: 40vh;
@@ -84,27 +85,27 @@ body {
 
 }
 
-.aboutUsHeader{
-color:#0076FF;
-margin-bottom: -2vh;
-font-size: large;
-font-weight: 100px;
+.aboutUsHeader {
+  color: #0076FF;
+  margin-bottom: -2vh;
+  font-size: large;
+  font-weight: 100px;
 }
 
-.systemHeader{
- margin-top: -2vh;
+.systemHeader {
+  margin-top: -2vh;
 
 }
 
-.about-text{
+.about-text {
   margin-top: -1vh;
   line-height: 30px;
   width: 50%;
   font-size: medium;
- 
+
 }
 
-.about-text2{
+.about-text2 {
   line-height: 30px;
   width: 50%;
   font-size: medium;
@@ -126,7 +127,83 @@ font-weight: 100px;
 }
 
 
+/* Service component css */
 
+.service-box {}
+
+.boxes {
+  text-align: center;
+  justify-content: center;
+  margin: 10vh 5vw 0 0vw;
+
+
+}
+
+
+
+.business {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #0076FF;
+  width: 20%;
+  height: 20vh;
+  color: white;
+  margin-left: 10vw;
+
+}
+
+.client {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 20vh;
+  margin-left: 30vw;
+  margin-top: -20vh;
+}
+
+
+.project {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: gainsboro;
+  width: 20%;
+  height: 20vh;
+  margin-left: 50vw;
+  margin-top: -22.5vh;
+
+
+}
+
+
+.staff {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  background-color: #0076FF;
+  width: 20%;
+  height: 20vh;
+  color: white;
+  margin-left: 70vw;
+  margin-top: -20vh;
+}
+
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+.business:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
 
 
 
@@ -139,18 +216,18 @@ font-weight: 100px;
 
 /* Media query for smaller screens */
 @media screen and (max-width: 1400px) {
-    .navbar {
-      height: 6vh;
-    }
-    
-    .navbarLogo {
-      height: 6vh;
-    }
-    
-    .nav-link {
-      font-size: 3vw;
-      margin: 0 1vw;
-    }
+  .navbar {
+    height: 6vh;
+  }
+
+  .navbarLogo {
+    height: 6vh;
+  }
+
+  .nav-link {
+    font-size: 3vw;
+    margin: 0 1vw;
+  }
 
 
   .home-img {
@@ -158,40 +235,45 @@ font-weight: 100px;
     width: 100%;
     height: 100%;
   }
-.home{
-  position: relative;
-  top: -8vh;
-}
-    .header1{
-      position: relative;
-      bottom: -22vh;
-      
-      }
-      
-      .header2{
-        position: relative;
-        top: 22vh;
-      
-      }
-      .provide-txt{
-        position: relative;
-        bottom: -23vh;
-        font-size: 10px;
-      
-      }
-      .provide-txt2{
-        position: relative;
-        bottom: -23vh;
-        font-size: 15px;
-      
-      }
-      .quote{
-        position: relative;
-        bottom: -1rem;
-        width: 20%;
-        height: 100%;
-      }
+
+  .home {
+    position: relative;
+    top: -8vh;
   }
+
+  .header1 {
+    position: relative;
+    bottom: -22vh;
+
+  }
+
+  .header2 {
+    position: relative;
+    top: 22vh;
+
+  }
+
+  .provide-txt {
+    position: relative;
+    bottom: -23vh;
+    font-size: 10px;
+
+  }
+
+  .provide-txt2 {
+    position: relative;
+    bottom: -23vh;
+    font-size: 15px;
+
+  }
+
+  .quote {
+    position: relative;
+    bottom: -1rem;
+    width: 20%;
+    height: 100%;
+  }
+}
 
 
 
@@ -200,19 +282,17 @@ font-weight: 100px;
 /* media query for mobile devices */
 @media screen and (max-width: 500px) {
   .quote {
-    width: 15vw !important;
-    height: 3vh !important;
+    width: 20%;
+    height: 5vh;
     position: relative;
-    bottom: -1vh;
-    font-size: 5px !important;
+    top: 1vh;
+    font-size: 5px;
     font-weight: bolder;
-    
+
   }
+
   .home {
-    top: -25vh;
-    left: 0;
-    font-size: xx-small;
-    margin-left: 5vw;
+    margin-top: 5vh;
   }
 
   .header1 {
@@ -234,44 +314,117 @@ font-weight: 100px;
     position: relative;
     bottom: -1vh;
   }
+
   .home-img {
     opacity: 0.8;
     width: 100%;
-    height: 100%; 
+    height: 100%;
   }
+
+
+  /* About component css */
+
+  .about2 {
+    font-size: larger;
+    margin-top: 35vh;
+    margin-left: 5vw;
+    
+    width: 100%;
+
+    
+  }
+
+  .aboutlogo {
+    height: auto;
+    width: 90%;
+    margin-left: 4vw;
+    justify-content: center;
+    margin-top: -15vh;
+
+  }
+
+  .aboutPic {
+    height: auto;
+    margin-top: 2vh;
+    width: 90%;
+    margin-left: 4vw;
+    justify-content: center;
+
+  }
+
+  .aboutUsHeader {
+    color: #0076FF;
+    font-size: large;
+    font-weight: 100px;
+  }
+
+  .systemHeader {
+
+  }
+
+  .about-text {
+    line-height: 30px;
+    width: 90%;
+    font-size: medium;
+
+  }
+
+  .about-text2 {
+    line-height: 30px;
+    width: 100%;
+    font-size: medium;
+  }
+
+  .about-text3 {
+    line-height: 30px;
+    width: 90%;
+    font-size: medium;
+  }
+
+  .callUs {
+    background-color: #0076FF;
+    color: white;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
 }
 
 
 
 @media screen and (max-width: 915px) {
-  .home{
+  .home {
     position: relative;
     top: -0.1vh;
   }
 
-.header1{
-position: relative;
-bottom: -22vh;
-font-size: 20px;
-}
+  .header1 {
+    position: relative;
+    bottom: -22vh;
+    font-size: 20px;
+  }
 
-.header2{
-  position: relative;
-  top: 22vh;
-  font-size: 20px;
-}
-.provide-txt{
-  position: relative;
-  bottom: -23vh;
-  font: 15px;
+  .header2 {
+    position: relative;
+    top: 22vh;
+    font-size: 20px;
+  }
 
-}
-.provide-txt2{
-  position: relative;
-  bottom: -23vh;
-  font-size: 10px;
+  .provide-txt {
+    position: relative;
+    bottom: -23vh;
+    font: 15px;
 
-}
+  }
+
+  .provide-txt2 {
+    position: relative;
+    bottom: -23vh;
+    font-size: 10px;
+
+  }
 
 }
 

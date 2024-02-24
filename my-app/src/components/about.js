@@ -8,6 +8,7 @@ function about() {
             <img src={logo2} alt="About Image" className='aboutPic' />
 
             <div className='about2'>
+                
                 <h3 className='aboutUsHeader'> ABOUT US</h3>
                 
                 <div className='aboutblackheaders'>
