@@ -15,7 +15,6 @@ function App() {
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <Router>
     
   <Nav/>
 <div className='nav-compensation'></div>
@@ -24,13 +23,14 @@ function App() {
 
 
  <About/> 
-{/* <Services/>
+{/* <Services/> */}
+{/* 
 <Testimonials/> 
 <Contact/>  */}
 
   
 
-  </Router>
+
 
     </div>
   );
