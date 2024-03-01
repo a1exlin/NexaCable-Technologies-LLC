@@ -23,8 +23,8 @@ function services() {
                     </div>
 
                     <div className="project">
-                        <div class="contaienr">
-                            <h2 className="ten3">2.5k</h2>
+                        <div class="contaienr" className="project-txt1">
+                            <h2 className="ten3"> 2.5k</h2>
                             <p className="project-txt">Projects Completed</p>
                         </div>
                     </div>
@@ -36,22 +36,34 @@ function services() {
                         </div>
                     </div>
                 </div>
-<div className="service2">
-<h1 className="header-service">OUR SERVICES</h1>
+                <div className="service2">
+                    <h1 className="header-service">OUR SERVICES</h1>
+                    
+                    <div className="service-components">
 
-<img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-installation.png" className="service-image1"></img>
-<img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-structuring.png" className="service-image2"></img>
-<img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/Network-Infrastructure.png" className="service-image3"></img>
-<h4 className="network-header">Network Infrastructure</h4>
-<p className="team">Our team of experts looks into the foundational components and systems that enable the communication and exchange of data between devices in a computer network. It forms the backbone of modern communication and information systems.</p>
-<h4 className="structure-header"> Structuring Cables</h4>
-<p className="organize">We organize and arrange cables in a systematic and efficient manner to improve safety, accessibility, and aesthetics. Proper cable management is important in various settings, including homes, offices, data centers, and industrial environments.
+                        <div className="service-component1">
 
-</p>
-<h4 className="cable-header">Cable Installation</h4>
-<p class="elementor-icon-box-description" className="cable">
-    We specialize in physically placing and connecting cables in a structured and organized manner. This can be for various purposes, such as electrical power transmission, data communication, audio/video connections, and more.	</p>
-</div>
+                            <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-installation.png" className="service-image1"></img>
+                            <h4 className="cable-header">Cable Installation</h4>
+                            <p class="elementor-icon-box-description" className="cable-txt">
+                                We specialize in physically placing and connecting cables in a structured and organized manner. This can be for various purposes, such as electrical power transmission, data communication, audio/video connections, and more.	</p>
+
+                        </div>
+
+                        <div className="service-component2">
+                            <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/cable-structuring.png" className="service-image2"></img>
+                            <h4 className="structure-header"> Structuring Cables</h4>
+                            <p className="organize-txt">We organize and arrange cables in a systematic and efficient manner to improve safety, accessibility, and aesthetics. Proper cable management is important in various settings, including homes, offices, data centers, and industrial environments.</p>
+                        </div>
+
+                        <div className="service-component3">
+                            <img src="https://ijm.vmw.mybluehost.me/wp-content/uploads/2023/11/Network-Infrastructure.png" className="service-image3"></img>
+                            <h4 className="network-header">Network Infrastructure</h4>
+                            <p className="team-txt">Our team of experts looks into the foundational components and systems that enable the communication and exchange of data between devices in a computer network. It forms the backbone of modern communication and information systems.</p>
+                        </div>
+                    </div>
+
+                </div>
 
 
 

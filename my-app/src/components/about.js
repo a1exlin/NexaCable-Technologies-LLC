@@ -4,13 +4,16 @@ import logo2 from '../img/about.png'
 function about() {
     return (
         <div className='about'>
-            <img src={logo} alt-="NexaCable About" className='aboutlogo' />
-            <img src={logo2} alt="About Image" className='aboutPic' />
+            <div className='about-photos'>
+
+                <img src={logo} alt-="NexaCable About" className='aboutlogo' />
+                <img src={logo2} alt="About Image" className='aboutPic' />
+            </div>
 
             <div className='about2'>
-                
+
                 <h3 className='aboutUsHeader'> ABOUT US</h3>
-                
+
                 <div className='aboutblackheaders'>
                     <h1 className='networkHeader'>Network and Security</h1>
                     <h1 className='systemHeader'>System Installation</h1>
