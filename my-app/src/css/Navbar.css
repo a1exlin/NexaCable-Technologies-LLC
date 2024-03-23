@@ -4,7 +4,7 @@
     background-color: rgba(25, 25, 25, 0.5);
     mask-image: linear-gradient(to bottom, black 90%, transparent 100%);
     width: 100%;
-    z-index: 1000;
+    z-index: 1;
     height: 8vh;
 }
 
@@ -42,21 +42,36 @@
     margin-left: auto;
 }
 
+@media screen and (max-width: 500px) {
+.navbar{
+    width: auto;
+    overflow: hidden;
+}
+.phone-number{
+position: relative;
+left: -1.5vw;
+}
+
+.nav-link{
+position: relative;
+left: -1vh;
+}
+}
 
 @media screen and (max-width: 1400px) {
     .navbar {
-      height: 6vh;
+        height: 6vh;
     }
-  
+
     .navbarLogo {
-      height: 6vh;
+        height: 6vh;
     }
-    
+
     .nav-link {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
-  
+}
+
 
 
 @media screen and (max-width: 730px) {
@@ -88,11 +103,13 @@
         font-size: 16px;
     }
 }
+
 @media screen and (max-width: 600px) {
     .nav-link {
         font-size: 15.5px;
     }
 }
+
 @media screen and (max-width: 589px) {
     .reviews-nav-link {
         display: none;
@@ -116,6 +133,7 @@
         font-size: 13px;
     }
 }
+
 @media screen and (max-width: 432px) {
     .nav-link {
         font-size: 12.5px;
