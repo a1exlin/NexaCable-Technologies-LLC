@@ -20,14 +20,11 @@ function App() {
   <Nav/>
 <div className='nav-compensation'></div>
 <Home/>
-
-
-
  <About/> 
 <Services/> 
 <Testimonials/> 
 <Reviews/>
-{/* <Contact/> */}
+<Contact/>
   
 
 
