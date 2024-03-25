@@ -516,6 +516,78 @@ bottom: -1.5vh;
 .contact{
   margin-top: -100vh;
 }
+
+.contact-box{
+  position: relative;
+  top: -8vh;
+  background-color: whitesmoke;
+  width: auto;
+  height: 120vh;
+}
+
+.contact-header{
+  text-align: center;
+  position: relative;
+  bottom: -10vh; 
+}
+.contact-subheader{
+text-align: center;
+position: relative;
+bottom: -7vh;
+}
+.contact-form{
+  text-align: center;
+}
+.firstname-input{
+position: relative;
+bottom: -15vh;
+left: 15vw;
+width: 20vw;
+height: 6vh;
+}
+.lastname-input{
+  position: relative;
+  bottom: -15vh;
+  left: 26vw;
+  width: 20vw;
+  height: 6vh;
+}
+.email-input{
+  position: relative;
+  bottom: -15vh;
+  left: 20vw;
+  width: 20vw;
+  height: 6vh;
+}
+.phone-input{
+  position: relative;
+  bottom: -30vh;
+  left: -15vw;
+  width: 20vw;
+  height: 6vh;
+}
+.email-input{
+  position: relative;
+  bottom: -30vh;
+  left: -26vw;
+  width: 20vw;
+  height: 6vh;
+}
+.message-input{
+  position: relative;
+  bottom: -40vh;
+  width: 52vw;
+  height: 20vh;
+}
+.contactbtn {
+  position: relative;
+  bottom: -50vh;
+  background-color: #4175FC;
+  color: #ffffff;
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px;
+}
 /* media query for mobile devices */
 @media screen and (max-width: 500px) {
 
