@@ -8,6 +8,7 @@ import Home from './components/home'
 import Services from './components/services'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Reviews from './components/review'
+import Copyright from './components/copyright';
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
 <Testimonials/> 
 <Reviews/>
 <Contact/>
-  
+<Copyright/>
 
 
 
